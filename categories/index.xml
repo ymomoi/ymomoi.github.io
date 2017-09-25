@@ -11,11 +11,11 @@
     
     
     <item>
-      <title>Category</title>
-      <link>https://ymomoi.github.io/categories/category/</link>
+      <title>Food</title>
+      <link>https://ymomoi.github.io/categories/food/</link>
       <pubDate>Tue, 05 Sep 2017 19:28:18 +0900</pubDate>
       
-      <guid>https://ymomoi.github.io/categories/category/</guid>
+      <guid>https://ymomoi.github.io/categories/food/</guid>
       <description></description>
     </item>
     
@@ -25,15 +25,6 @@
       <pubDate>Mon, 25 Sep 2017 21:34:39 +0900</pubDate>
       
       <guid>https://ymomoi.github.io/categories/misc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Subcategory</title>
-      <link>https://ymomoi.github.io/categories/subcategory/</link>
-      <pubDate>Tue, 05 Sep 2017 19:28:18 +0900</pubDate>
-      
-      <guid>https://ymomoi.github.io/categories/subcategory/</guid>
       <description></description>
     </item>
     
