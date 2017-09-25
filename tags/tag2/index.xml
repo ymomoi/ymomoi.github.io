@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Momorandom</title>
-    <link>https://ymomoi.github.io/</link>
-    <description>Recent content on Momorandom</description>
+    <title>Tag2 on Momorandom</title>
+    <link>https://ymomoi.github.io/tags/tag2/</link>
+    <description>Recent content in Tag2 on Momorandom</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 05 Sep 2017 19:28:18 +0900</lastBuildDate>
     
-	<atom:link href="https://ymomoi.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ymomoi.github.io/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
