@@ -1,9 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[momorandum]]></title><description><![CDATA[momo's memorandums]]></description><link>https://ymomoi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 06 Sep 2018 08:43:50 GMT</lastBuildDate><item><title><![CDATA[Gatsby で新 web site 作成]]></title><description><![CDATA[重い腰を上げて、個人 web site をリニューアル。]]></description><link>https://ymomoi.github.io/posts/2018090600/</link><guid isPermaLink="false">https://ymomoi.github.io/posts/2018090600/</guid><pubDate>Thu, 06 Sep 2018 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;重い腰を上げて、個人 web site をリニューアル。
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[momorandum]]></title><description><![CDATA[momo's memorandums]]></description><link>https://ymomoi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 06 Sep 2018 10:18:11 GMT</lastBuildDate><item><title><![CDATA[Boostnote を使ってみる]]></title><description><![CDATA[過去にも何度かあったけれど、Evernote にまた不穏なニュースが流れているので、そろそろ本気で代替策を考える必要があるなと]]></description><link>https://ymomoi.github.io/posts/2018090700/</link><guid isPermaLink="false">https://ymomoi.github.io/posts/2018090700/</guid><pubDate>Fri, 07 Sep 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;過去にも何度かあったけれど、Evernote にまた不穏なニュースが流れているので、そろそろ本気で代替策を考える必要があるなと感じました。&lt;/p&gt;
+&lt;p&gt;ノート保管サービスはいくつかあるし、それぞれ似たような/よい機能は持っているんだけれど、やはりこの手のは「手になじむ」ことが重要だと感じていて。
+まあ、端的に言うと Emacs のキーバインドなんですがｗ 考えたことだけをガシガシとメモするためには、ここが違うととてもストレスになります。
+意図して Emacs を立ち上げる機会を減らそうとしてきて、実際にだいぶ減らしたんですが、このキーバインドだけは変えるのが苦痛すぎて無理でした。
+コピペの1,2度ぐらいはできるんですが、その他の細々としたカーソル移動や編集ですね。本当に身体に染みついてる(苦笑)&lt;/p&gt;
+&lt;p&gt;たとえば Microsoft OneNote は、試しに使ってみた範囲ではとてもよくできていたんだけど、私の誤操作があまりにも多くてストレスに。
+手元にはアプリなど置かない、Web サービス系のものでも同じストレスが。Web サービス系のものはスマホでも必ず使えるというメリットはあるんですが。&lt;/p&gt;
+&lt;p&gt;いままで試した中で一番ハードルが低かったのは &lt;a href=&quot;https://simplenote.com/&quot;&gt;SimpleNote&lt;/a&gt; でした。
+名前のとおりシンプルで、Evernote と操作系も似ていて、本当に単にテキストを書きためるだけならば悪くないんですよね。
+ただ、それ以外のことができなくてたまに困り、メインで使うには至りませんでした。
+例えば「ここにPDFをくっつけて保存したい」と思った時にそのまま貼れないと、Evernote にコピペして… みたいなのは面倒で。&lt;/p&gt;
+&lt;p&gt;今回、検索して見つけて気になったのが &lt;a href=&quot;https://boostnote.io/&quot;&gt;Boostnote&lt;/a&gt;。
+デバイス間の同期は Google Drive や Dropbox に任せると割り切っているみたいです。
+競合した時にどこまでうまく動くかはわからないけど、私の場合、本当に複数デバイスで同時に編集したいことはそう多くないので、ここは眼をつぶってもいいところだろうと。&lt;/p&gt;
+&lt;p&gt;ひとつ残念なのは、ちょっと前までは提供していたっぽい Android アプリが公開停止しているところ。
+Android などからも文書を見たいこともたまにあるんだけれど、それも頻度は高くないのでなんとかなるかな…
+iOS 用のものがどの程度のクオリティかは、しばらく試してみないとわからないか。&lt;/p&gt;
+&lt;p&gt;Boostnote の Mac 用アプリでいくつかノートを作って編集してみた感じでは、まだ Evernote ほどのクオリティには達していないけれどなんとか使えそう。
+デバイス間同期や iOS アプリも含めて、しばらく試してみようと思います。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsby で新 web site 作成]]></title><description><![CDATA[重い腰を上げて、個人 web site をリニューアル。]]></description><link>https://ymomoi.github.io/posts/2018090600/</link><guid isPermaLink="false">https://ymomoi.github.io/posts/2018090600/</guid><pubDate>Thu, 06 Sep 2018 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;重い腰を上げて、個人 web site をリニューアル。
 ずっと HTML 手書きで作っていたトップページと、WordPress を試しに使ってみようと思って少し書いていた blog をとりあえずこちらに移すことにしました。&lt;/p&gt;
 &lt;p&gt;blog をやるのに WordPress を使ってみたのは、Web サイトを作るにしてもいつまでも HTML 手書きじゃなかろうという思いからでした。
 その後も仕事やプライベートでいろいろと CMS 的なものを試してみたんですが、やはりどれもちょっとしっくりこず。
 ただ、2015 年ぐらいからサイトジェネレーターなるものを見かけるようになって、これならいけるのではないかと思ってやってみたしだいです。&lt;/p&gt;
-&lt;p&gt;手元も軽い方が嬉しいので、最初は go で作られた &lt;a href=&quot;https://gohugo.io&quot;&gt;Hugo&lt;/a&gt; を試してみたんですが、ちょっと試した後にカスタマイズしようとしたらよくわからず、しばらく放置…ｗ&lt;/p&gt;
+&lt;p&gt;手元も軽い方が嬉しいので、最初は go で作られた &lt;a href=&quot;https://gohugo.io&quot;&gt;Hugo&lt;/a&gt; を使ってみようとしたんですが、適当なテーマをちょっと試した後にカスタマイズしようとしたらいまいちわからず、しばらく放置…ｗ&lt;/p&gt;
 &lt;p&gt;その後、&lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;Gatsby&lt;/a&gt; を知り試してみたところ、こちらはなんとか使えるようになりそうだったので、シンプルなテーマをベースにこのページを作りました。&lt;/p&gt;
 &lt;p&gt;昔の日記は HTML べた書きで量が多く、フォーマットも時期によって変わったりしているので、手間も考えてもう変更しない方向にしました。
 いろいろやろうとするとまた挫折しそうだし…ｗ&lt;/p&gt;
