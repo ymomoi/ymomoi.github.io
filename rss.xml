@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[momorandum]]></title><description><![CDATA[momo's memorandums]]></description><link>https://ymomoi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 06 Sep 2018 10:18:11 GMT</lastBuildDate><item><title><![CDATA[Boostnote を使ってみる]]></title><description><![CDATA[過去にも何度かあったけれど、Evernote にまた不穏なニュースが流れているので、そろそろ本気で代替策を考える必要があるなと]]></description><link>https://ymomoi.github.io/posts/2018090700/</link><guid isPermaLink="false">https://ymomoi.github.io/posts/2018090700/</guid><pubDate>Fri, 07 Sep 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;過去にも何度かあったけれど、Evernote にまた不穏なニュースが流れているので、そろそろ本気で代替策を考える必要があるなと感じました。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[momorandum]]></title><description><![CDATA[momo's memorandums]]></description><link>https://m.bug.org</link><generator>RSS for Node</generator><lastBuildDate>Fri, 14 Sep 2018 07:33:35 GMT</lastBuildDate><item><title><![CDATA[Boostnote を使ってみる]]></title><description><![CDATA[過去にも何度かあったけれど、Evernote にまた不穏なニュースが流れているので、そろそろ本気で代替策を考える必要があるなと]]></description><link>https://m.bug.org/posts/2018090700/</link><guid isPermaLink="false">https://m.bug.org/posts/2018090700/</guid><pubDate>Fri, 07 Sep 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;過去にも何度かあったけれど、Evernote にまた不穏なニュースが流れているので、そろそろ本気で代替策を考える必要があるなと感じました。&lt;/p&gt;
 &lt;p&gt;ノート保管サービスはいくつかあるし、それぞれ似たような/よい機能は持っているんだけれど、やはりこの手のは「手になじむ」ことが重要だと感じていて。
 まあ、端的に言うと Emacs のキーバインドなんですがｗ 考えたことだけをガシガシとメモするためには、ここが違うととてもストレスになります。
 意図して Emacs を立ち上げる機会を減らそうとしてきて、実際にだいぶ減らしたんですが、このキーバインドだけは変えるのが苦痛すぎて無理でした。
@@ -16,7 +16,7 @@
 Android などからも文書を見たいこともたまにあるんだけれど、それも頻度は高くないのでなんとかなるかな…
 iOS 用のものがどの程度のクオリティかは、しばらく試してみないとわからないか。&lt;/p&gt;
 &lt;p&gt;Boostnote の Mac 用アプリでいくつかノートを作って編集してみた感じでは、まだ Evernote ほどのクオリティには達していないけれどなんとか使えそう。
-デバイス間同期や iOS アプリも含めて、しばらく試してみようと思います。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsby で新 web site 作成]]></title><description><![CDATA[重い腰を上げて、個人 web site をリニューアル。]]></description><link>https://ymomoi.github.io/posts/2018090600/</link><guid isPermaLink="false">https://ymomoi.github.io/posts/2018090600/</guid><pubDate>Thu, 06 Sep 2018 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;重い腰を上げて、個人 web site をリニューアル。
+デバイス間同期や iOS アプリも含めて、しばらく試してみようと思います。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsby で新 web site 作成]]></title><description><![CDATA[重い腰を上げて、個人 web site をリニューアル。]]></description><link>https://m.bug.org/posts/2018090600/</link><guid isPermaLink="false">https://m.bug.org/posts/2018090600/</guid><pubDate>Thu, 06 Sep 2018 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;重い腰を上げて、個人 web site をリニューアル。
 ずっと HTML 手書きで作っていたトップページと、WordPress を試しに使ってみようと思って少し書いていた blog をとりあえずこちらに移すことにしました。&lt;/p&gt;
 &lt;p&gt;blog をやるのに WordPress を使ってみたのは、Web サイトを作るにしてもいつまでも HTML 手書きじゃなかろうという思いからでした。
 その後も仕事やプライベートでいろいろと CMS 的なものを試してみたんですが、やはりどれもちょっとしっくりこず。
@@ -26,11 +26,11 @@ iOS 用のものがどの程度のクオリティかは、しばらく試して�
 &lt;p&gt;昔の日記は HTML べた書きで量が多く、フォーマットも時期によって変わったりしているので、手間も考えてもう変更しない方向にしました。
 いろいろやろうとするとまた挫折しそうだし…ｗ&lt;/p&gt;
 &lt;p&gt;古い blog 記事は… 需要はまったくないと思うけれど、一度リリースした文書はあまり消したくないので、順次このサイトに移していきます。&lt;/p&gt;
-&lt;p&gt;誰も読んでいないと思いますが、気が向いたらまた更新しますｗ&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Proxy を使わなければならない環境で plenv install-cpanm]]></title><description><![CDATA[proxy を通さないと外に出れない環境で、plenv instlal-cpanm が失敗する時の自分用の覚え書き。]]></description><link>https://ymomoi.github.io/posts/2015041400/</link><guid isPermaLink="false">https://ymomoi.github.io/posts/2015041400/</guid><pubDate>Tue, 14 Apr 2015 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;proxy を通さないと外に出れない環境で、plenv instlal-cpanm が失敗する時の自分用の覚え書き。
+&lt;p&gt;誰も読んでいないと思いますが、気が向いたらまた更新しますｗ&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Proxy を使わなければならない環境で plenv install-cpanm]]></title><description><![CDATA[proxy を通さないと外に出れない環境で、plenv instlal-cpanm が失敗する時の自分用の覚え書き。]]></description><link>https://m.bug.org/posts/2015041400/</link><guid isPermaLink="false">https://m.bug.org/posts/2015041400/</guid><pubDate>Tue, 14 Apr 2015 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;proxy を通さないと外に出れない環境で、plenv instlal-cpanm が失敗する時の自分用の覚え書き。
 ちゃんと &lt;a href=&quot;https://github.com/tokuhirom/plenv&quot;&gt;https://github.com/tokuhirom/plenv&lt;/a&gt; にも書いてあるけど、curl のエラーメッセージでぐぐっても引っかからなかったので、見落としてたのでｗ&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;% PLENV_INSTALL_CPANM=&amp;quot;-v&amp;quot; plenv install-cpanm&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[PDF を cbz 形式にして，kobo touch で読みやすくする]]></title><description><![CDATA[楽天で kobo touch が安かったので(笑)買ってみたんだけれど，PC Watch のレビューなどにも書かれているとおり，手持ちの PDF を読むにはちょっと手間が多すぎるなと感じた．]]></description><link>https://ymomoi.github.io/posts/2012072500/</link><guid isPermaLink="false">https://ymomoi.github.io/posts/2012072500/</guid><pubDate>Wed, 25 Jul 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;楽天で kobo touch が安かったので(笑)買ってみたんだけれど，&lt;a href=&quot;http://pc.watch.impress.co.jp/docs/topic/feature/20120725_548865.html&quot;&gt;PC Watch のレビュー&lt;/a&gt;などにも書かれているとおり，手持ちの PDF を読むにはちょっと手間が多すぎるなと感じた．&lt;/p&gt;
+      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[PDF を cbz 形式にして，kobo touch で読みやすくする]]></title><description><![CDATA[楽天で kobo touch が安かったので(笑)買ってみたんだけれど，PC Watch のレビューなどにも書かれているとおり，手持ちの PDF を読むにはちょっと手間が多すぎるなと感じた．]]></description><link>https://m.bug.org/posts/2012072500/</link><guid isPermaLink="false">https://m.bug.org/posts/2012072500/</guid><pubDate>Wed, 25 Jul 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;楽天で kobo touch が安かったので(笑)買ってみたんだけれど，&lt;a href=&quot;http://pc.watch.impress.co.jp/docs/topic/feature/20120725_548865.html&quot;&gt;PC Watch のレビュー&lt;/a&gt;などにも書かれているとおり，手持ちの PDF を読むにはちょっと手間が多すぎるなと感じた．&lt;/p&gt;
 &lt;p&gt;自炊ブームなどのおかげで先達のノウハウがたくさんあって，同僚からそのあたりのツールを教えて貰ったので，手元にあった PDF を cbz 形式に変換して突っ込んでみたら幸せになれました :-D&lt;/p&gt;
 &lt;p&gt;パスワードをかけた PDF がいくつかあって，このあたりのものをどうやって変換するかいろいろ調べてみたけれど，画像にするだけなら pdftoppm を使うのが一番確実で早かった．
 それから cbz 形式を作るので定評ある ChainLP というツールは Windows 用で，Mac と Windows 両方使うことになってしまったけど，まあ，手元にはどちらの環境もあるから気にしないことにする(笑)．&lt;/p&gt;
@@ -60,12 +60,12 @@ rm test/page*.ppm&lt;/code&gt;&lt;/pre&gt;
 &lt;li&gt;ChainLP で，画像ファイルの入ったフォルダから cbz 形式のファイルを生成する．&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;ChainLP が，画像余白のトリミングをそこそこしてくれるので，拡大しなくても読める程度になりました．
-PDF を直接入れたときは，いろいろなところで書かれている kobo touch の PDF 表示不具合もあって使えない感じだったけど，これなら普段読むのにも使えるかなぁ．&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spaces でホットキーが効かなくなる]]></title><description><![CDATA[MacOS X Lion にしてからも，Spaces ではホットキー切り替えをメインに使ってるんですが，これがたまに効かなくなって困ってました．]]></description><link>https://ymomoi.github.io/posts/2012071000/</link><guid isPermaLink="false">https://ymomoi.github.io/posts/2012071000/</guid><pubDate>Tue, 10 Jul 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;MacOS X Lion にしてからも，Spaces ではホットキー切り替えをメインに使ってるんですが，これがたまに効かなくなって困ってました．
+PDF を直接入れたときは，いろいろなところで書かれている kobo touch の PDF 表示不具合もあって使えない感じだったけど，これなら普段読むのにも使えるかなぁ．&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spaces でホットキーが効かなくなる]]></title><description><![CDATA[MacOS X Lion にしてからも，Spaces ではホットキー切り替えをメインに使ってるんですが，これがたまに効かなくなって困ってました．]]></description><link>https://m.bug.org/posts/2012071000/</link><guid isPermaLink="false">https://m.bug.org/posts/2012071000/</guid><pubDate>Tue, 10 Jul 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;MacOS X Lion にしてからも，Spaces ではホットキー切り替えをメインに使ってるんですが，これがたまに効かなくなって困ってました．
 今日また固まったので(笑)，気が向いてググってみたら，やっぱり時々そういうことがおきるみたい．&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://1-byte.jp/2010/09/12/bug_of_spaces/&quot;&gt;Spaces が固まったときの対処法&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;killall Dock したら，たしかに直りました．&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mailman の引っ越し]]></title><description><![CDATA[さくらの VPS でプランを乗り換えたので，サーバの引っ越しをする必要ができた．ML の引っ越しのために，Mailman の設定移行方法をメモ．]]></description><link>https://ymomoi.github.io/posts/2012050800/</link><guid isPermaLink="false">https://ymomoi.github.io/posts/2012050800/</guid><pubDate>Tue, 08 May 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;さくらの VPS でプランを乗り換えたので，サーバの引っ越しをする必要ができた． ML の引っ越しのために，Mailman の設定移行方法をメモ．&lt;/p&gt;
+&lt;p&gt;killall Dock したら，たしかに直りました．&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mailman の引っ越し]]></title><description><![CDATA[さくらの VPS でプランを乗り換えたので，サーバの引っ越しをする必要ができた．ML の引っ越しのために，Mailman の設定移行方法をメモ．]]></description><link>https://m.bug.org/posts/2012050800/</link><guid isPermaLink="false">https://m.bug.org/posts/2012050800/</guid><pubDate>Tue, 08 May 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;さくらの VPS でプランを乗り換えたので，サーバの引っ越しをする必要ができた． ML の引っ越しのために，Mailman の設定移行方法をメモ．&lt;/p&gt;
 &lt;p&gt;Mailman はパッケージで導入．
 普通に入れたら英語環境だけになってしまったので，インストール後にパッケージ設定をもう一度叩いて，日本語環境をインストール．&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
@@ -93,7 +93,7 @@ URL が違うために，投稿が保留されたメールの承認などがで�
 修正するためには次のコマンドを実行する．&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;sudo withlist -l -r fix_url ML名&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[ubuntu server に自動アップデート設定]]></title><description><![CDATA[ubuntu server にセキュリティパッチなどを自動アップデートするように設定する．unattended-upgrades パッケージを入れれば OK．]]></description><link>https://ymomoi.github.io/posts/2012042300/</link><guid isPermaLink="false">https://ymomoi.github.io/posts/2012042300/</guid><pubDate>Mon, 23 Apr 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;ubuntu server にセキュリティパッチなどを自動アップデートするように設定する．
+      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[ubuntu server に自動アップデート設定]]></title><description><![CDATA[ubuntu server にセキュリティパッチなどを自動アップデートするように設定する．unattended-upgrades パッケージを入れれば OK．]]></description><link>https://m.bug.org/posts/2012042300/</link><guid isPermaLink="false">https://m.bug.org/posts/2012042300/</guid><pubDate>Mon, 23 Apr 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;ubuntu server にセキュリティパッチなどを自動アップデートするように設定する．
 unattended-upgrades パッケージを入れれば OK．&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;apt-get update
@@ -128,7 +128,7 @@ Unattended-Upgrade::Mail &amp;quot;root@localhost&amp;quot;;
 // Set this value to &amp;quot;true&amp;quot; to get emails only on errors. Default
 // is to always send a mail if Unattended-Upgrade::Mail is set
 //Unattended-Upgrade::MailOnlyOnError &amp;quot;true&amp;quot;;&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[MySQL 5.5 install on CentOS 6.2]]></title><description><![CDATA[CentOS 6.2 に MySQL 5.5 をインストールしようとしたら，依存関係があってちょっと悩んだ．]]></description><link>https://ymomoi.github.io/posts/2012041700/</link><guid isPermaLink="false">https://ymomoi.github.io/posts/2012041700/</guid><pubDate>Tue, 17 Apr 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;CentOS 6.2 に MySQL 5.5 をインストールしようとしたら，依存関係があってちょっと悩んだ．
+      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[MySQL 5.5 install on CentOS 6.2]]></title><description><![CDATA[CentOS 6.2 に MySQL 5.5 をインストールしようとしたら，依存関係があってちょっと悩んだ．]]></description><link>https://m.bug.org/posts/2012041700/</link><guid isPermaLink="false">https://m.bug.org/posts/2012041700/</guid><pubDate>Tue, 17 Apr 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;CentOS 6.2 に MySQL 5.5 をインストールしようとしたら，依存関係があってちょっと悩んだ．
 具体的には，postfix などが依存している mysql-libs 5.1 がコンフリクトする．
 この依存関係をどう解消したものかと調べてみると，remi というリポジトリのものを使っているようだった．
 ひとまずそれにならってインストールしてみることにする．&lt;/p&gt;
@@ -171,7 +171,7 @@ sudo mysql_secure_installation&lt;/code&gt;&lt;/pre&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://rails3beginner.blogspot.jp/2012/01/centos6mysql55.html&quot;&gt;Rails3備忘録: CentOS6にMySQL5.5をインストール&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.limemo.net/blog/2012/03/add-epe-repository-of-yum-on-cenots.html&quot;&gt;CentOSのyumにEPELレポジトリを追加する | Linuxとかをつついてみるブログ&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Apache 2.4.1 install]]></title><description><![CDATA[Apache 2.4.1 をインストールしてみる．]]></description><link>https://ymomoi.github.io/posts/2012041200/</link><guid isPermaLink="false">https://ymomoi.github.io/posts/2012041200/</guid><pubDate>Thu, 12 Apr 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Apache 2.4.1 をインストールしてみる．&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Apache 2.4.1 install]]></title><description><![CDATA[Apache 2.4.1 をインストールしてみる．]]></description><link>https://m.bug.org/posts/2012041200/</link><guid isPermaLink="false">https://m.bug.org/posts/2012041200/</guid><pubDate>Thu, 12 Apr 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Apache 2.4.1 をインストールしてみる．&lt;/p&gt;
 &lt;p&gt;2.4 系では，APR, APR-Util は添付されなくなったようだ．
 自分で取得してインストールすることにする．
 一緒にインストールする手段もあるけど，別に入れておいてもいいのでそちらの方法で．&lt;/p&gt;
@@ -197,7 +197,7 @@ configure の段階で足りないライブラリは足しておくこと．&lt;
 make
 make install&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;特に問題なくインストール完了．&lt;/p&gt;</content:encoded></item><item><title><![CDATA[OmniGraffle にステンシルを追加する]]></title><description><![CDATA[Mac 用の Visio 的な扱いのドローイングツールで，一番メジャーなのが OmniGraffle だと思う．私も図表を書くときにはだいたいこれを使っている．]]></description><link>https://ymomoi.github.io/posts/2012030600/</link><guid isPermaLink="false">https://ymomoi.github.io/posts/2012030600/</guid><pubDate>Tue, 06 Mar 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Mac 用の Visio 的な扱いのドローイングツールで，一番メジャーなのが &lt;a href=&quot;http://www.omnigroup.com/products/omnigraffle/&quot;&gt;OmniGraffle&lt;/a&gt; だと思う．
+&lt;p&gt;特に問題なくインストール完了．&lt;/p&gt;</content:encoded></item><item><title><![CDATA[OmniGraffle にステンシルを追加する]]></title><description><![CDATA[Mac 用の Visio 的な扱いのドローイングツールで，一番メジャーなのが OmniGraffle だと思う．私も図表を書くときにはだいたいこれを使っている．]]></description><link>https://m.bug.org/posts/2012030600/</link><guid isPermaLink="false">https://m.bug.org/posts/2012030600/</guid><pubDate>Tue, 06 Mar 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Mac 用の Visio 的な扱いのドローイングツールで，一番メジャーなのが &lt;a href=&quot;http://www.omnigroup.com/products/omnigraffle/&quot;&gt;OmniGraffle&lt;/a&gt; だと思う．
 私も図表を書くときにはだいたいこれを使っている．&lt;/p&gt;
 &lt;p&gt;標準で入っているものでもそれなりに使えるけれど，やはりサードパーティ製のステンシルでそれっぽいシンボルを追加して使った方が雰囲気が出てよい :-D&lt;/p&gt;
 &lt;p&gt;ステンシルは下記のようなサイトから手に入る．&lt;/p&gt;
@@ -210,7 +210,7 @@ make install&lt;/code&gt;&lt;/pre&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;~/Library/Application Support/The Omni Group/OmniGraffle/Stencils/&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;~/Library/Application Support/OmniGraffle/Stencils&lt;/code&gt; (古い置き場所)&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[iPod touch のバッテリーがみるみる減る]]></title><description><![CDATA[ある日，いつもどおり仕事を終えて帰り支度をしているときに，iPod touch のバッテリーがほとんど空になっているのに気づいた．]]></description><link>https://ymomoi.github.io/posts/2012030300/</link><guid isPermaLink="false">https://ymomoi.github.io/posts/2012030300/</guid><pubDate>Sat, 03 Mar 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;ある日，いつもどおり仕事を終えて帰り支度をしているときに，iPod touch のバッテリーがほとんど空になっているのに気づいた．
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[iPod touch のバッテリーがみるみる減る]]></title><description><![CDATA[ある日，いつもどおり仕事を終えて帰り支度をしているときに，iPod touch のバッテリーがほとんど空になっているのに気づいた．]]></description><link>https://m.bug.org/posts/2012030300/</link><guid isPermaLink="false">https://m.bug.org/posts/2012030300/</guid><pubDate>Sat, 03 Mar 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;ある日，いつもどおり仕事を終えて帰り支度をしているときに，iPod touch のバッテリーがほとんど空になっているのに気づいた．
 今朝はちゃんと充電した記憶があるんだけどなー，などと思いつつ，仕事中にずっと再生状態になってたりしてたかなと考えて帰宅．&lt;/p&gt;
 &lt;p&gt;ケーブルにつないで朝まで充電してから翌日もいつもどおり通勤．
 行きの電車では特に問題なし．
@@ -223,7 +223,7 @@ make install&lt;/code&gt;&lt;/pre&gt;
 帰宅準備中に見たら，バッテリーは昼のレベルのまま．やはり…&lt;/p&gt;
 &lt;p&gt;単に無線に繋がらない場所にずっといるだけならここまでバッテリーは減らないので，&lt;strong&gt;「今までつないでいたはずのSSIDのキーが変わった時」&lt;/strong&gt; に，何度もネゴシエーションと切断を繰り返すためではないかと予想．
 実際に同じ状況にしてみたらもりもりと電池が減った．&lt;/p&gt;
-&lt;p&gt;これ以降，必要ないときには機内モードに切り替えておく癖がつきましたｗ&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Ubuntu Server 11.10 upgrade]]></title><description><![CDATA[Ubuntu Server を 11.10 に upgrade した．]]></description><link>https://ymomoi.github.io/posts/2011110700/</link><guid isPermaLink="false">https://ymomoi.github.io/posts/2011110700/</guid><pubDate>Mon, 07 Nov 2011 20:24:00 GMT</pubDate><content:encoded>&lt;p&gt;Ubuntu Server を 11.10 に upgrade した．
+&lt;p&gt;これ以降，必要ないときには機内モードに切り替えておく癖がつきましたｗ&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Ubuntu Server 11.10 upgrade]]></title><description><![CDATA[Ubuntu Server を 11.10 に upgrade した．]]></description><link>https://m.bug.org/posts/2011110700/</link><guid isPermaLink="false">https://m.bug.org/posts/2011110700/</guid><pubDate>Mon, 07 Nov 2011 20:24:00 GMT</pubDate><content:encoded>&lt;p&gt;Ubuntu Server を 11.10 に upgrade した．
 基本的に手順どおりにやればはまりどころは少ないと思う．
 が，VMware ゲストとして動かしている場合，reboot 後にはまるポイントがあるので注意．&lt;/p&gt;
 &lt;ul&gt;
