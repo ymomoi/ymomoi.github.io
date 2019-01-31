@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[momorandum]]></title><description><![CDATA[momo's memorandums]]></description><link>https://m.bug.org</link><generator>RSS for Node</generator><lastBuildDate>Thu, 31 Jan 2019 04:14:17 GMT</lastBuildDate><item><title><![CDATA[Evernote から Boostnote にノートを移す]]></title><description><![CDATA[Boostnote を使ってみたらよかったので、Evernote からノートを移行することにしました。]]></description><link>https://m.bug.org/posts/2019013100/</link><guid isPermaLink="false">https://m.bug.org/posts/2019013100/</guid><pubDate>Thu, 31 Jan 2019 13:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://m.bug.org/posts/2018090700/&quot;&gt;Boostnote を使ってみる&lt;/a&gt;で書いたとおり、Boostnote をときどき使ってました。
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[momorandum]]></title><description><![CDATA[momo's memorandums]]></description><link>https://m.bug.org</link><generator>RSS for Node</generator><lastBuildDate>Thu, 31 Jan 2019 04:19:05 GMT</lastBuildDate><item><title><![CDATA[Evernote から Boostnote にノートを移す]]></title><description><![CDATA[Boostnote を使ってみたらよかったので、Evernote からノートを移行することにしました。]]></description><link>https://m.bug.org/posts/2019013100/</link><guid isPermaLink="false">https://m.bug.org/posts/2019013100/</guid><pubDate>Thu, 31 Jan 2019 13:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://m.bug.org/posts/2018090700/&quot;&gt;Boostnote を使ってみる&lt;/a&gt;で書いたとおり、Boostnote をときどき使ってました。
 やはり Markdown を書き留めるにはとても使いやすかったので、PC で使うメモツールはこちらに乗り替えることに決めました。
 メモツールはやはり蓄積と検索がキモだと思うので、Evernote で蓄えていた文書はまるごと移行しておきたい… ということで、ノートの引っ越しをしようと。&lt;/p&gt;
 &lt;p&gt;Evernote からのデータ移行ツールとしては &lt;a href=&quot;https://github.com/BoostIO/ever2boost&quot;&gt;ever2boost&lt;/a&gt; があるんですが、&lt;a href=&quot;https://qiita.com/kilica/items/aca598fd0c85be4a8bdf&quot;&gt;Evernote の Developer token がここしばらく提供されていない&lt;/a&gt;ようです。
@@ -10,15 +10,15 @@
 &lt;li&gt;Markdown 形式で書いていない(大部分の)ノートが、とても詰まって表示される&lt;/li&gt;
 &lt;li&gt;ノートの作成/更新時刻が引き継がれない&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;.enex 形式のファイルを見ると、どうやら &amp;#x3C;br /&gt; タグが入っているところは改行されているけれど、Evernote で見た目は改行しているところでも &amp;#x3C;div&gt;〜&amp;#x3C;/div&gt; タグで囲まれたところはすべてくっついてしまっている模様。
-とりあえず &amp;#x3C;div&gt; タグを外しているあたりを見つけて改行を入れるようにしたら、それっぽく読めるようにはなったのでそれでよいことにしました。&lt;/p&gt;
-&lt;p&gt;もうひとつのノートの作成/更新時刻に関しては、.cson ファイルにもそういう項目があったので、そこの出力部分を元の XML から拾ってくるように変更。&lt;/p&gt;
+&lt;p&gt;.enex 形式のファイルを見ると、どうやら Evernote では見た目改行しているところにも2種類あって、&amp;#x3C;br /&gt; タグが入っているところは改行されているけれど、&amp;#x3C;div&gt;〜&amp;#x3C;/div&gt; タグで囲まれただけのところはすべてくっついてしまっている模様。
+とりあえず &amp;#x3C;div&gt; タグを外しているあたりを見つけて改行を入れるようにしたら、それっぽく読めるようにはなったのでよいことにしました。&lt;/p&gt;
+&lt;p&gt;もうひとつ、ノートの作成/更新時刻に関しては .cson ファイルにもそういう項目があったので、出力部分を元の XML から拾ってくるように変更。&lt;/p&gt;
 &lt;p&gt;これでとりあえずは見れる状態のノートを移行できたので満足。
 実行方法はこんな感じです。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;ever2boost convert -d ~/BoostNote/ ~/tmp/Evernote/inbox.enex&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;上記の変更を含んだ ever2boost はこちらにあります: &lt;a href=&quot;https://github.com/ymomoi/ever2boost&quot;&gt;https://github.com/ymomoi/ever2boost&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;上記の変更を含んだ ever2boost はこちら: &lt;a href=&quot;https://github.com/ymomoi/ever2boost&quot;&gt;https://github.com/ymomoi/ever2boost&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;移行ツールって、基本的には各人が一回使ったら終わりなので、頑張らないとメンテされにくい傾向はありますね…ｗ&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Security Reject Con + ssmjp に参加してきた]]></title><description><![CDATA[Security Reject Con + ssmjp に blog 枠で参加してみました。]]></description><link>https://m.bug.org/posts/2018091900/</link><guid isPermaLink="false">https://m.bug.org/posts/2018091900/</guid><pubDate>Wed, 19 Sep 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://ssmjp.connpass.com/event/95820/&quot;&gt;Security Reject Con + ssmjp&lt;/a&gt; に blog 枠で参加してみました。
 blog 枠で何かに参加するのは初めてですｗ&lt;/p&gt;
 &lt;p&gt;会場は大崎の &lt;a href=&quot;https://www.future.co.jp&quot;&gt;Future&lt;/a&gt; 様。&lt;a href=&quot;https://github.com/future-architect/vuls&quot;&gt;Vuls&lt;/a&gt; 関係などで何度か来ている、個人的にはおなじみの場所です。&lt;/p&gt;
