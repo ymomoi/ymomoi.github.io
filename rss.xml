@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[momorandum]]></title><description><![CDATA[momo's memorandums]]></description><link>https://m.bug.org</link><generator>RSS for Node</generator><lastBuildDate>Thu, 31 Jan 2019 04:19:05 GMT</lastBuildDate><item><title><![CDATA[Evernote から Boostnote にノートを移す]]></title><description><![CDATA[Boostnote を使ってみたらよかったので、Evernote からノートを移行することにしました。]]></description><link>https://m.bug.org/posts/2019013100/</link><guid isPermaLink="false">https://m.bug.org/posts/2019013100/</guid><pubDate>Thu, 31 Jan 2019 13:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://m.bug.org/posts/2018090700/&quot;&gt;Boostnote を使ってみる&lt;/a&gt;で書いたとおり、Boostnote をときどき使ってました。
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[momorandum]]></title><description><![CDATA[momo's memorandums]]></description><link>https://m.bug.org</link><generator>RSS for Node</generator><lastBuildDate>Thu, 31 Jan 2019 04:28:10 GMT</lastBuildDate><item><title><![CDATA[Evernote から Boostnote にノートを移す]]></title><description><![CDATA[Boostnote を使ってみたらよかったので、Evernote からノートを移行することにしました。]]></description><link>https://m.bug.org/posts/2019013100/</link><guid isPermaLink="false">https://m.bug.org/posts/2019013100/</guid><pubDate>Thu, 31 Jan 2019 13:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://m.bug.org/posts/2018090700/&quot;&gt;Boostnote を使ってみる&lt;/a&gt;で書いたとおり、Boostnote をときどき使ってました。
 やはり Markdown を書き留めるにはとても使いやすかったので、PC で使うメモツールはこちらに乗り替えることに決めました。
 メモツールはやはり蓄積と検索がキモだと思うので、Evernote で蓄えていた文書はまるごと移行しておきたい… ということで、ノートの引っ越しをしようと。&lt;/p&gt;
 &lt;p&gt;Evernote からのデータ移行ツールとしては &lt;a href=&quot;https://github.com/BoostIO/ever2boost&quot;&gt;ever2boost&lt;/a&gt; があるんですが、&lt;a href=&quot;https://qiita.com/kilica/items/aca598fd0c85be4a8bdf&quot;&gt;Evernote の Developer token がここしばらく提供されていない&lt;/a&gt;ようです。
@@ -7,7 +7,7 @@
 &lt;p&gt;ever2boost はあまり更新されていないようで、単に取ってきて実行するだけでは動きませんが、実行時に出るエラーは Issue に解決策があります。&lt;/p&gt;
 &lt;p&gt;パッチを当てて実行すると Boostnote の読み込み形式 (.cson) ファイルが生成されて、とりあえずは全部のノートが読み込める状態になったのですが、個人的にイマイチなことが2つ…&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Markdown 形式で書いていない(大部分の)ノートが、とても詰まって表示される&lt;/li&gt;
+&lt;li&gt;Markdown 形式でない(大部分の)ノートが、とても詰まって表示される&lt;/li&gt;
 &lt;li&gt;ノートの作成/更新時刻が引き継がれない&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;.enex 形式のファイルを見ると、どうやら Evernote では見た目改行しているところにも2種類あって、&amp;#x3C;br /&gt; タグが入っているところは改行されているけれど、&amp;#x3C;div&gt;〜&amp;#x3C;/div&gt; タグで囲まれただけのところはすべてくっついてしまっている模様。
