@@ -1,2 +1,0 @@
-webpackJsonp([0xe70826b53c04],{411:function(t,o){t.exports={data:{site:{siteMetadata:{title:"momorandum",subtitle:"momo's memorandums",copyright:"© All rights reserved.",menu:[{label:"Articles",path:"/"},{label:"About me",path:"/about/"}],author:{name:"momo",email:"momo@bug.org",twitter:"sbg",facebook:"ymomoi",github:"ymomoi",rss:"/rss.xml"}}}},pathContext:{}}}});
-//# sourceMappingURL=path---404-d15319944f1a49958dea.js.map

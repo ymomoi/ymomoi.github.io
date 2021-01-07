@@ -1,7 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[momorandum]]></title><description><![CDATA[momo's memorandums]]></description><link>https://m.bug.org</link><generator>RSS for Node</generator><lastBuildDate>Thu, 31 Jan 2019 04:28:10 GMT</lastBuildDate><item><title><![CDATA[Evernote から Boostnote にノートを移す]]></title><description><![CDATA[Boostnote を使ってみたらよかったので、Evernote からノートを移行することにしました。]]></description><link>https://m.bug.org/posts/2019013100/</link><guid isPermaLink="false">https://m.bug.org/posts/2019013100/</guid><pubDate>Thu, 31 Jan 2019 13:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://m.bug.org/posts/2018090700/&quot;&gt;Boostnote を使ってみる&lt;/a&gt;で書いたとおり、Boostnote をときどき使ってました。
-やはり Markdown を書き留めるにはとても使いやすかったので、PC で使うメモツールはこちらに乗り替えることに決めました。
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[momorandum]]></title><description><![CDATA[momo's memorandums.]]></description><link>https://m.bug.org</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 07 Jan 2021 10:55:14 GMT</lastBuildDate><item><title><![CDATA[ATOK 以外の選択肢を試してみる]]></title><description><![CDATA[長年愛用していた ATOK がサブスクリプションメインになってしまったので、別の IME を試してみることにしました。]]></description><link>https://m.bug.org/posts/2021010700/atok-to-other-ime</link><guid isPermaLink="false">https://m.bug.org/posts/2021010700/atok-to-other-ime</guid><pubDate>Thu, 07 Jan 2021 18:30:00 GMT</pubDate><content:encoded>&lt;p&gt;長年愛用していた ATOK がサブスクリプションライセンスメインになってしまったので、別の IME を試してみることにしました。&lt;/p&gt;
+&lt;p&gt;選択肢として思い浮かんだのは&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ことえり&lt;/li&gt;
+&lt;li&gt;Google 日本語入力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;のふたつ。&lt;/p&gt;
+&lt;p&gt;どちらもすぐに試すことができるので、しばらく併用してみることにしました。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 496px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ee4659e8a7d22256d2f4625e8850fc58/bb630/ime.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 89.16666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAABYlAAAWJQFJUiTwAAADHklEQVQ4y11UyW7TUBT1J7Hmf1iyZIkQsECCPQvYdAUIUZAQXSAoVMo8NWPTZnZiJ85sO7YTp2l7eOdCwHTx9Ca/c889515rdx6ucfexjwdvA7izPjpdHefn52g2m5hMJpjP57Kv1+vodru4vLxEq9XGOvBgDJc4ePkVtusil82q8xa0e68d3D9Y4SB9jcBbYDqdYTQaod/vC+BisUC73Zah6zo2m43cu44Na+bg8CgL23Hk3jAMaPPpBDPbR/rwCxbtFrqDAfReD9vtFmEYCsBut5NBdkEQyPl6vUa4WQPYYaPWvOMbbblcwPd9nP5IYdzT0VFgnU4HnufJYw6uHcUievbvzpeZGJw1fuSrCG8aW9RGLkqFLM6UXrxkVFfpk06nUalUkFU6MS2y3gMK0z+ZCOBUpewFG7xLrVDvu9A7TaVVX7SjIRwEGY/HmM1mEoAgezDup9MpbNuWvWaNhli4IZ5+3OGkotgkfiIWS4hjmUwGhUIB8XgcFxcXuLm5ETZRdgSkRKwAstSGwxE24RbfUzX0jDEYwLIscbSn9GRkpttoNASUzkdT5vq/lAVwEyKZL6m6smCq9HRVMiwbRl0ul1KT3O9rc/94n3qUsQIcYnd1hdNyGRNVg2STTCaRy+VkTd2KxSLK6p4zv79tCvecBdA0TLjK+pPiEPpoKSnTFKY7UDVJc8iUwATjHDVltVqJLNRSUq5Vymh2TLw4ukb8zIXZb6n264kpbDmClUolYZhKpVCtVqXm9owIRL2pMdfa0DSwCrZ49S1AubvCeDRQID0pFTLi2LtIU/j4tsv8hvpSb22sUnS8EE8+BEjWXYyHukrVkId0m2mTIdnm83mZowyZMr+r1WpimADaCvDRewKu0G5UUSyVhSF/AqZpCgg15SOyjTJkSzIowVg+mqXoOn6IZ598ZBseptYAF43m3+5gdOpJjagjU48yZOsyMIe4/JvhFs8/h0icOSifZhCLJ1S3xHB8fCy6MVWyYy/TlGi50GGy5rmYYii9PH8tDvctVQLLuZQGB3uUvcx0yJTFzTOy2g+ypY4sLwL+Aq0/Kxv08NNlAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/ee4659e8a7d22256d2f4625e8850fc58/8ac56/ime.webp 240w,
+/static/ee4659e8a7d22256d2f4625e8850fc58/d3be9/ime.webp 480w,
+/static/ee4659e8a7d22256d2f4625e8850fc58/6f16c/ime.webp 496w&quot;
+          sizes=&quot;(max-width: 496px) 100vw, 496px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/ee4659e8a7d22256d2f4625e8850fc58/8ff5a/ime.png 240w,
+/static/ee4659e8a7d22256d2f4625e8850fc58/e85cb/ime.png 480w,
+/static/ee4659e8a7d22256d2f4625e8850fc58/bb630/ime.png 496w&quot;
+          sizes=&quot;(max-width: 496px) 100vw, 496px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/ee4659e8a7d22256d2f4625e8850fc58/bb630/ime.png&quot;
+          alt=&quot;IME selector&quot;
+          title=&quot;IME selector&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;…と書いたんですが、ことえりは使用感がどうもいまいちで早々と脱落w 感覚なもので何が悪いと具体的に書くのが難しいんですが、全体に動作がもっさりしていたのが大きいかな… 他にも細々と引っかかるところはありました。&lt;/p&gt;
+&lt;p&gt;一方、Google 日本語入力はほとんど違和感なく使えてます。
+ATOK ベースに一部のキーバインドを変更/追加したぐらいで、おおむねいい感じです。
+文脈に応じて漢字を選ぶ能力は ATOK の方が高めだという気はするけれど、使っていたら慣れそうな範疇です。たぶんw&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Evernote から Boostnote にノートを移す]]></title><description><![CDATA[Boostnote を使ってみたらよかったので、Evernote からノートを移行することにしました。]]></description><link>https://m.bug.org/posts/2019013100/evernote-to-boostnote</link><guid isPermaLink="false">https://m.bug.org/posts/2019013100/evernote-to-boostnote</guid><pubDate>Thu, 31 Jan 2019 13:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;/posts/2018090700/try-boostnote&quot;&gt;Boostnote を使ってみる&lt;/a&gt;で書いたとおり、Boostnote をときどき使ってました。
+やはり Markdown を書き留めるにはとても使いやすかったので、PC で使うメモツールはこちらに乗り替えることを決めました。
 メモツールはやはり蓄積と検索がキモだと思うので、Evernote で蓄えていた文書はまるごと移行しておきたい… ということで、ノートの引っ越しをしようと。&lt;/p&gt;
-&lt;p&gt;Evernote からのデータ移行ツールとしては &lt;a href=&quot;https://github.com/BoostIO/ever2boost&quot;&gt;ever2boost&lt;/a&gt; があるんですが、&lt;a href=&quot;https://qiita.com/kilica/items/aca598fd0c85be4a8bdf&quot;&gt;Evernote の Developer token がここしばらく提供されていない&lt;/a&gt;ようです。
+&lt;p&gt;Evernote からのデータ移行ツールとしては &lt;a href=&quot;https://github.com/BoostIO/ever2boost&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;ever2boost&lt;/a&gt; があるんですが、&lt;a href=&quot;https://qiita.com/kilica/items/aca598fd0c85be4a8bdf&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Evernote の Developer token がここしばらく提供されていない&lt;/a&gt;ようです。
 確かに temporarily disabled となってますね… (2019-01-29現在)&lt;/p&gt;
 &lt;p&gt;この Qiita の記事では HTML 出力からテキストを切り出していますが、Evernote は XML (.enex) 出力もできて、ever2boost コマンドはそのファイルからのインポートもできるようだったので、その方法を試してみることにしました。&lt;/p&gt;
 &lt;p&gt;ever2boost はあまり更新されていないようで、単に取ってきて実行するだけでは動きませんが、実行時に出るエラーは Issue に解決策があります。&lt;/p&gt;
@@ -10,34 +62,33 @@
 &lt;li&gt;Markdown 形式でない(大部分の)ノートが、とても詰まって表示される&lt;/li&gt;
 &lt;li&gt;ノートの作成/更新時刻が引き継がれない&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;.enex 形式のファイルを見ると、どうやら Evernote では見た目改行しているところにも2種類あって、&amp;#x3C;br /&gt; タグが入っているところは改行されているけれど、&amp;#x3C;div&gt;〜&amp;#x3C;/div&gt; タグで囲まれただけのところはすべてくっついてしまっている模様。
-とりあえず &amp;#x3C;div&gt; タグを外しているあたりを見つけて改行を入れるようにしたら、それっぽく読めるようにはなったのでよいことにしました。&lt;/p&gt;
+&lt;p&gt;.enex 形式のファイルを見ると、どうやら Evernote では見た目改行しているところにも2種類あって、&lt;code class=&quot;language-text&quot;&gt;&amp;lt;br /&amp;gt;&lt;/code&gt; タグが入っているところは改行されているけれど、&lt;code class=&quot;language-text&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt;〜&lt;code class=&quot;language-text&quot;&gt;&amp;lt;/div&amp;gt;&lt;/code&gt; タグで囲まれただけのところはすべてくっついてしまっている模様。
+とりあえず &lt;code class=&quot;language-text&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt; タグを外しているあたりを見つけて改行を入れるようにしたら、それっぽく読めるようにはなったのでよいことにしました。&lt;/p&gt;
 &lt;p&gt;もうひとつ、ノートの作成/更新時刻に関しては .cson ファイルにもそういう項目があったので、出力部分を元の XML から拾ってくるように変更。&lt;/p&gt;
 &lt;p&gt;これでとりあえずは見れる状態のノートを移行できたので満足。
 実行方法はこんな感じです。&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;ever2boost convert -d ~/BoostNote/ ~/tmp/Evernote/inbox.enex&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;上記の変更を含んだ ever2boost はこちら: &lt;a href=&quot;https://github.com/ymomoi/ever2boost&quot;&gt;https://github.com/ymomoi/ever2boost&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;移行ツールって、基本的には各人が一回使ったら終わりなので、頑張らないとメンテされにくい傾向はありますね…ｗ&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Security Reject Con + ssmjp に参加してきた]]></title><description><![CDATA[Security Reject Con + ssmjp に blog 枠で参加してみました。]]></description><link>https://m.bug.org/posts/2018091900/</link><guid isPermaLink="false">https://m.bug.org/posts/2018091900/</guid><pubDate>Wed, 19 Sep 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://ssmjp.connpass.com/event/95820/&quot;&gt;Security Reject Con + ssmjp&lt;/a&gt; に blog 枠で参加してみました。
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;ever2boost convert -d ~/BoostNote/ ~/tmp/Evernote/inbox.enex&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;上記の変更を含んだ ever2boost はこちら: &lt;a href=&quot;https://github.com/ymomoi/ever2boost&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://github.com/ymomoi/ever2boost&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;移行ツールって、基本的には各人が1回使ったら終わりなので、頑張らないとメンテされにくい傾向はありますね…ｗ&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Security Reject Con + ssmjp に参加してきた]]></title><description><![CDATA[Security Reject Con + ssmjp に blog 枠で参加してみました。]]></description><link>https://m.bug.org/posts/2018091400/security-reject-con-ssmjp</link><guid isPermaLink="false">https://m.bug.org/posts/2018091400/security-reject-con-ssmjp</guid><pubDate>Wed, 19 Sep 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://ssmjp.connpass.com/event/95820/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Security Reject Con + ssmjp&lt;/a&gt; に blog 枠で参加してみました。
 blog 枠で何かに参加するのは初めてですｗ&lt;/p&gt;
-&lt;p&gt;会場は大崎の &lt;a href=&quot;https://www.future.co.jp&quot;&gt;Future&lt;/a&gt; 様。&lt;a href=&quot;https://github.com/future-architect/vuls&quot;&gt;Vuls&lt;/a&gt; 関係などで何度か来ている、個人的にはおなじみの場所です。&lt;/p&gt;
-&lt;h1&gt;前説&lt;/h1&gt;
-&lt;p&gt;いつもの &lt;a href=&quot;https://twitter.com/tigerszk&quot;&gt;@tigerszk&lt;/a&gt; さんの &lt;a href=&quot;https://ssm.pkan.org/&quot;&gt;#ssmjp&lt;/a&gt; 説明。「なんでもしゃべりに来てね！」が基本スタンスです。&lt;/p&gt;
+&lt;p&gt;会場は大崎の &lt;a href=&quot;https://www.future.co.jp&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Future&lt;/a&gt; 様。&lt;a href=&quot;https://github.com/future-architect/vuls&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Vuls&lt;/a&gt; 関係などで何度か来ている、個人的にはおなじみの場所です。&lt;/p&gt;
+&lt;h2 id=&quot;前説&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E5%89%8D%E8%AA%AC&quot; aria-label=&quot;前説 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;前説&lt;/h2&gt;
+&lt;p&gt;いつもの &lt;a href=&quot;https://twitter.com/tigerszk&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;@tigerszk&lt;/a&gt; さんの &lt;a href=&quot;https://ssm.pkan.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;#ssmjp&lt;/a&gt; 説明。「なんでもしゃべりに来てね！」が基本スタンスです。&lt;/p&gt;
 &lt;p&gt;Security Reject con の説明。カンファレンスや学会で惜しくも不採用になったネタを発表して次の採用に活かすというイベント。&lt;/p&gt;
-&lt;h1&gt;Future 様の紹介&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/hogehuga&quot;&gt;@hogehuga&lt;/a&gt; さん。&lt;/p&gt;
+&lt;h2 id=&quot;future-様の紹介&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#future-%E6%A7%98%E3%81%AE%E7%B4%B9%E4%BB%8B&quot; aria-label=&quot;future 様の紹介 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Future 様の紹介&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/hogehuga&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;@hogehuga&lt;/a&gt; さん。&lt;/p&gt;
 &lt;p&gt;あんがい普通の会社紹介資料から、あまり普通ではない説明が続く。
 羽田の到着したところに大きな広告が出てますね！
 まだ転職してきて間もないので、会社紹介なのに「みたいです」が多くなる。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://vuls.biz/&quot;&gt;FutureVuls&lt;/a&gt; 出ました！
+&lt;p&gt;&lt;a href=&quot;https://vuls.biz/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;FutureVuls&lt;/a&gt; 出ました！
 無料で試せるので、ぜひよろしくお願いします。&lt;/p&gt;
-&lt;h1&gt;We regret to inform you&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/akirakanaoka&quot;&gt;@akirakanaoka&lt;/a&gt; さん。&lt;/p&gt;
+&lt;h2 id=&quot;we-regret-to-inform-you&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#we-regret-to-inform-you&quot; aria-label=&quot;we regret to inform you permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;We regret to inform you&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/akirakanaoka&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;@akirakanaoka&lt;/a&gt; さん。&lt;/p&gt;
 &lt;p&gt;研究者です。Usable Security、暗号の応用とシステム化、モバイルやってます。&lt;/p&gt;
 &lt;p&gt;トップカンファレンスとリジェクト。資料作成していたら心が折れそうになりましたｗ&lt;/p&gt;
-&lt;p&gt;研究者は論文を出してなんぼ。ジャーナルや海外カンファレンス、特にトップカンファレンスが評価が高い。
-&lt;a href=&quot;http://faculty.cs.tamu.edu/guofei/sec_conf_stat.htm&quot;&gt;セキュリティカンファレンスのランキング&lt;/a&gt; がある。
+&lt;p&gt;研究者は論文を出してなんぼ。
+ジャーナルや海外カンファレンス、特にトップカンファレンスの評価が高い。
+&lt;a href=&quot;http://faculty.cs.tamu.edu/guofei/sec_conf_stat.htm&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;セキュリティカンファレンスのランキング&lt;/a&gt; がある。
 影響度順みたいなもの。&lt;/p&gt;
 &lt;p&gt;トップカンファレンスは査読や評価が分厚い。
 半年前に締め切って、3ヶ月ぐらいで査読される。
@@ -67,20 +118,16 @@ blog 枠で何かに参加するのは初めてですｗ&lt;/p&gt;
 &lt;li&gt;A. 暗号の実装まわりじゃないだろうか&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/akirakanaoka/status/1040551095397830656&quot;&gt;話者プロフィール&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/akirakanaoka/status/1040566631695446016&quot;&gt;採録されたとき&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/akirakanaoka/status/1040551095397830656&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;話者プロフィール&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/akirakanaoka/status/1040566631695446016&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;採録されたとき&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Your EV SSL certificate is crying -Gaps between SSL server operators and Contents designers-&lt;/h1&gt;
+&lt;h2 id=&quot;your-ev-ssl-certificate-is-crying--gaps-between-ssl-server-operators-and-contents-designers-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#your-ev-ssl-certificate-is-crying--gaps-between-ssl-server-operators-and-contents-designers-&quot; aria-label=&quot;your ev ssl certificate is crying  gaps between ssl server operators and contents designers  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Your EV SSL certificate is crying -Gaps between SSL server operators and Contents designers-&lt;/h2&gt;
 &lt;p&gt;RWC2018 に出したけど落ちた話。&lt;/p&gt;
 &lt;p&gt;suga さんがやってきたことを紹介。自分でも何をやっているのかいまいちわかっていない。
 CRYPTREC とかいろいろな研究会の委員とかやってます。&lt;/p&gt;
 &lt;p&gt;Real World Crypto 2018 に投稿したけど落ちた話をします。&lt;/p&gt;
 &lt;p&gt;あなたの EV SSL 証明書が泣いている という話をします。
-日本語版は JANOG で話した内容 (&lt;a href=&quot;https://www.janog.gr.jp/meeting/janog39/program/evssl.html&quot;&gt;JANOG39 EVSSL証明書が泣いている「検索窓問題」～ブラウザのセキュリティインディケータを意識していますか～&lt;/a&gt;) です。&lt;/p&gt;
+日本語版は JANOG で話した内容 (&lt;a href=&quot;https://www.janog.gr.jp/meeting/janog39/program/evssl.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;JANOG39 EVSSL 証明書が泣いている「検索窓問題」～ブラウザのセキュリティインディケータを意識していますか～&lt;/a&gt;) です。&lt;/p&gt;
 &lt;p&gt;とあるリストを元に、SSL の状況をサーベイしました。
 弱い暗号を使っているサイトもおおいです。
 EV SSL を買っていてもそのように表示されていないサイトがけっこうある。
@@ -88,8 +135,8 @@ EV SSL を買っていてもそのように表示されていないサイトが�
 せっかく高いのを買っているのに…&lt;/p&gt;
 &lt;p&gt;さらに、Chrome のバグで EV SSL がちゃんと表示されていない時期があった。一ヶ月ぐらい。
 アドレスバーに組織名が表示されないバグ。&lt;/p&gt;
-&lt;h1&gt;サイバーセキュリティ錬金術&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/bbr_bbq&quot;&gt;@bbr_bbq&lt;/a&gt; さん。&lt;/p&gt;
+&lt;h2 id=&quot;サイバーセキュリティ錬金術&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E9%8C%AC%E9%87%91%E8%A1%93&quot; aria-label=&quot;サイバーセキュリティ錬金術 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;サイバーセキュリティ錬金術&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/bbr_bbq&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;@bbr_bbq&lt;/a&gt; さん。&lt;/p&gt;
 &lt;p&gt;価値あるデータ: XSSの検査値/ブラックリスト を自動的に作る。&lt;/p&gt;
 &lt;p&gt;収集は手作業だけど、そのあとは自動で作る。
 記号や HTML タグなど。遺伝的アルゴリズムの基になる遺伝子。
@@ -106,10 +153,10 @@ EV SSL を買っていてもそのように表示されていないサイトが�
 &lt;p&gt;実際に Discremeter を、WAF として使ってみた。
 速度と False Negative が出てしまうのがネックだった。&lt;/p&gt;
 &lt;p&gt;今後の課題 (≒ Rejectされた理由)&lt;/p&gt;
-&lt;p&gt;今回のソースコードは github にあげてあります。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/bbr_bbq/status/1040574520464031751&quot;&gt;資料&lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;リジェクト・キャンプ行ってきましたヽ(´ー｀)ノ&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/sonodam&quot;&gt;@sonodam&lt;/a&gt; さん。&lt;/p&gt;
+&lt;p&gt;今回のソースコードは GitHub にあげてあります。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/bbr_bbq/status/1040574520464031751&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;資料&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;リジェクト・キャンプ行ってきましたヽ´ー｀ノ&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%83%AA%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%83%BB%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F%E3%83%BD%C2%B4%E3%83%BC%EF%BD%80%E3%83%8E&quot; aria-label=&quot;リジェクト・キャンプ行ってきましたヽ´ー｀ノ permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;リジェクト・キャンプ行ってきましたヽ(´ー｀)ノ&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/sonodam&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;@sonodam&lt;/a&gt; さん。&lt;/p&gt;
 &lt;p&gt;一本目&lt;/p&gt;
 &lt;p&gt;SQL インジェクション攻撃の確率モデルと〜&lt;/p&gt;
 &lt;ul&gt;
@@ -128,7 +175,7 @@ EV SSL を買っていてもそのように表示されていないサイトが�
 &lt;p&gt;新しいものを作っている分野では評価できる人がいないのは普通か。&lt;/p&gt;
 &lt;p&gt;リジェクト・キャンプというのを実はやったことがあって。
 セキュリティキャンプに行けなかった人たちで集まって合宿しようぜ、というノリでやったことがある。2008年。
-&lt;a href=&quot;https://tech.nikkeibp.co.jp/it/pc/article/column/20080908/1007805/&quot;&gt;Rejectキャンプに行ってきました&lt;/a&gt;という記事を書きました。
+&lt;a href=&quot;https://tech.nikkeibp.co.jp/it/pc/article/column/20080908/1007805/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Rejectキャンプに行ってきました&lt;/a&gt;という記事を書きました。
 ぶっちゃけおもしろかったです。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -138,7 +185,7 @@ EV SSL を買っていてもそのように表示されていないサイトが�
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;NKの内部事情&lt;/h1&gt;
+&lt;h2 id=&quot;nkの内部事情&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#nk%E3%81%AE%E5%86%85%E9%83%A8%E4%BA%8B%E6%83%85&quot; aria-label=&quot;nkの内部事情 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;NKの内部事情&lt;/h2&gt;
 &lt;p&gt;ととろさん。&lt;/p&gt;
 &lt;p&gt;2015年に北朝鮮が話題になった話。
 RedStar を解析してみた&lt;/p&gt;
@@ -146,240 +193,207 @@ RedStar を解析してみた&lt;/p&gt;
 &lt;p&gt;OS に仕掛けがあって、通信が全部、北のサーバを通るようになっていた。
 HTML がいじられて、Twitter, Facebook は表示しないようになっていた。
 どう見ても Apple のソースをパクって作ってある。&lt;/p&gt;
-&lt;p&gt;RedStar の解析記事(英語)はググると出てくるので、興味のある方はそちらをどうぞ。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Boostnote を使ってみる]]></title><description><![CDATA[過去にも何度かあったけれど、Evernote にまた不穏なニュースが流れているので、そろそろ本気で代替策を考える必要があるなと]]></description><link>https://m.bug.org/posts/2018090700/</link><guid isPermaLink="false">https://m.bug.org/posts/2018090700/</guid><pubDate>Fri, 07 Sep 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;過去にも何度かあったけれど、Evernote にまた不穏なニュースが流れているので、そろそろ本気で代替策を考える必要があるなと感じました。&lt;/p&gt;
+&lt;p&gt;RedStar の解析記事(英語)はググると出てくるので、興味のある方はそちらをどうぞ。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Boostnote を使ってみる]]></title><description><![CDATA[過去にも何度かあったけれど、Evernote にまた不穏なニュースが流れているので、そろそろ本気で代替策を考える必要があるなと]]></description><link>https://m.bug.org/posts/2018090700/try-boostnote</link><guid isPermaLink="false">https://m.bug.org/posts/2018090700/try-boostnote</guid><pubDate>Fri, 07 Sep 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;過去にも何度かあったけれど、Evernote にまた不穏なニュースが流れているので、そろそろ本気で代替策を考える必要があるなと感じました。&lt;/p&gt;
 &lt;p&gt;ノート保管サービスはいくつかあるし、それぞれ似たような/よい機能は持っているんだけれど、やはりこの手のは「手になじむ」ことが重要だと感じていて。
 まあ、端的に言うと Emacs のキーバインドなんですがｗ 考えたことだけをガシガシとメモするためには、ここが違うととてもストレスになります。
 意図して Emacs を立ち上げる機会を減らそうとしてきて、実際にだいぶ減らしたんですが、このキーバインドだけは変えるのが苦痛すぎて無理でした。
 コピペの1,2度ぐらいはできるんですが、その他の細々としたカーソル移動や編集ですね。本当に身体に染みついてる(苦笑)&lt;/p&gt;
 &lt;p&gt;たとえば Microsoft OneNote は、試しに使ってみた範囲ではとてもよくできていたんだけど、私の誤操作があまりにも多くてストレスに。
 手元にはアプリなど置かない、Web サービス系のものでも同じストレスが。Web サービス系のものはスマホでも必ず使えるというメリットはあるんですが。&lt;/p&gt;
-&lt;p&gt;いままで試した中で一番ハードルが低かったのは &lt;a href=&quot;https://simplenote.com/&quot;&gt;SimpleNote&lt;/a&gt; でした。
+&lt;p&gt;いままで試した中で一番ハードルが低かったのは &lt;a href=&quot;https://simplenote.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;SimpleNote&lt;/a&gt; でした。
 名前のとおりシンプルで、Evernote と操作系も似ていて、本当に単にテキストを書きためるだけならば悪くないんですよね。
 ただ、それ以外のことができなくてたまに困り、メインで使うには至りませんでした。
 例えば「ここにPDFをくっつけて保存したい」と思った時にそのまま貼れないと、Evernote にコピペして… みたいなのは面倒で。&lt;/p&gt;
-&lt;p&gt;今回、検索して見つけて気になったのが &lt;a href=&quot;https://boostnote.io/&quot;&gt;Boostnote&lt;/a&gt;。
+&lt;p&gt;今回、検索して見つけて気になったのが &lt;a href=&quot;https://boostnote.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Boostnote&lt;/a&gt;。
 デバイス間の同期は Google Drive や Dropbox に任せると割り切っているみたいです。
 競合した時にどこまでうまく動くかはわからないけど、私の場合、本当に複数デバイスで同時に編集したいことはそう多くないので、ここは眼をつぶってもいいところだろうと。&lt;/p&gt;
 &lt;p&gt;ひとつ残念なのは、ちょっと前までは提供していたっぽい Android アプリが公開停止しているところ。
 Android などからも文書を見たいこともたまにあるんだけれど、それも頻度は高くないのでなんとかなるかな…
 iOS 用のものがどの程度のクオリティかは、しばらく試してみないとわからないか。&lt;/p&gt;
 &lt;p&gt;Boostnote の Mac 用アプリでいくつかノートを作って編集してみた感じでは、まだ Evernote ほどのクオリティには達していないけれどなんとか使えそう。
-デバイス間同期や iOS アプリも含めて、しばらく試してみようと思います。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsby で新 web site 作成]]></title><description><![CDATA[重い腰を上げて、個人 web site をリニューアル。]]></description><link>https://m.bug.org/posts/2018090600/</link><guid isPermaLink="false">https://m.bug.org/posts/2018090600/</guid><pubDate>Thu, 06 Sep 2018 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;重い腰を上げて、個人 web site をリニューアル。
-ずっと HTML 手書きで作っていたトップページと、WordPress を試しに使ってみようと思って少し書いていた blog をとりあえずこちらに移すことにしました。&lt;/p&gt;
+デバイス間同期や iOS アプリも含めて、しばらく試してみようと思います。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsby で新 web site 作成]]></title><description><![CDATA[重い腰を上げて、個人 web site をリニューアル。]]></description><link>https://m.bug.org/posts/2018090600/gatsby</link><guid isPermaLink="false">https://m.bug.org/posts/2018090600/gatsby</guid><pubDate>Thu, 06 Sep 2018 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;重い腰を上げて、個人 web site をリニューアル。
+ずっと HTML 手書きで作っていたトップページと、WordPress を試しに使ってみようと思って少し書いていた blog を、とりあえずこちらへ移すことにしました。&lt;/p&gt;
 &lt;p&gt;blog をやるのに WordPress を使ってみたのは、Web サイトを作るにしてもいつまでも HTML 手書きじゃなかろうという思いからでした。
-その後も仕事やプライベートでいろいろと CMS 的なものを試してみたんですが、やはりどれもちょっとしっくりこず。
-ただ、2015 年ぐらいからサイトジェネレーターなるものを見かけるようになって、これならいけるのではないかと思ってやってみたしだいです。&lt;/p&gt;
-&lt;p&gt;手元も軽い方が嬉しいので、最初は go で作られた &lt;a href=&quot;https://gohugo.io&quot;&gt;Hugo&lt;/a&gt; を使ってみようとしたんですが、適当なテーマをちょっと試した後にカスタマイズしようとしたらいまいちわからず、しばらく放置…ｗ&lt;/p&gt;
-&lt;p&gt;その後、&lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;Gatsby&lt;/a&gt; を知り試してみたところ、こちらはなんとか使えるようになりそうだったので、シンプルなテーマをベースにこのページを作りました。&lt;/p&gt;
+その後も仕事やプライベートでいろいろと CMS 的なものを試してみたんですが、やはりどれもちょっとしっくりこず…
+ただ、2015年ぐらいからサイトジェネレーターなるものを見かけるようになって、これならいけるのではないかと思ってやってみたしだいです。&lt;/p&gt;
+&lt;p&gt;手元も軽い方が嬉しいので、最初は go で作られた &lt;a href=&quot;https://gohugo.io&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Hugo&lt;/a&gt; を使ってみようとしたんですが、適当なテーマをちょっと試した後にカスタマイズしようとしたらいまいちわからず、しばらく放置…ｗ&lt;/p&gt;
+&lt;p&gt;その後 &lt;a href=&quot;https://www.gatsbyjs.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Gatsby&lt;/a&gt; を知り試してみたところ、こちらはなんとか使えるようになりそうだったので、シンプルなテーマをベースにこのページを作りました。&lt;/p&gt;
 &lt;p&gt;昔の日記は HTML べた書きで量が多く、フォーマットも時期によって変わったりしているので、手間も考えてもう変更しない方向にしました。
 いろいろやろうとするとまた挫折しそうだし…ｗ&lt;/p&gt;
-&lt;p&gt;古い blog 記事は… 需要はまったくないと思うけれど、一度リリースした文書はあまり消したくないので、順次このサイトに移していきます。&lt;/p&gt;
-&lt;p&gt;誰も読んでいないと思いますが、気が向いたらまた更新しますｗ&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Proxy を使わなければならない環境で plenv install-cpanm]]></title><description><![CDATA[proxy を通さないと外に出れない環境で、plenv instlal-cpanm が失敗する時の自分用の覚え書き。]]></description><link>https://m.bug.org/posts/2015041400/</link><guid isPermaLink="false">https://m.bug.org/posts/2015041400/</guid><pubDate>Tue, 14 Apr 2015 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;proxy を通さないと外に出れない環境で、plenv instlal-cpanm が失敗する時の自分用の覚え書き。
-ちゃんと &lt;a href=&quot;https://github.com/tokuhirom/plenv&quot;&gt;https://github.com/tokuhirom/plenv&lt;/a&gt; にも書いてあるけど、curl のエラーメッセージでぐぐっても引っかからなかったので、見落としてたのでｗ&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;% PLENV_INSTALL_CPANM=&amp;quot;-v&amp;quot; plenv install-cpanm&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[PDF を cbz 形式にして，kobo touch で読みやすくする]]></title><description><![CDATA[楽天で kobo touch が安かったので(笑)買ってみたんだけれど，PC Watch のレビューなどにも書かれているとおり，手持ちの PDF を読むにはちょっと手間が多すぎるなと感じた．]]></description><link>https://m.bug.org/posts/2012072500/</link><guid isPermaLink="false">https://m.bug.org/posts/2012072500/</guid><pubDate>Wed, 25 Jul 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;楽天で kobo touch が安かったので(笑)買ってみたんだけれど，&lt;a href=&quot;http://pc.watch.impress.co.jp/docs/topic/feature/20120725_548865.html&quot;&gt;PC Watch のレビュー&lt;/a&gt;などにも書かれているとおり，手持ちの PDF を読むにはちょっと手間が多すぎるなと感じた．&lt;/p&gt;
-&lt;p&gt;自炊ブームなどのおかげで先達のノウハウがたくさんあって，同僚からそのあたりのツールを教えて貰ったので，手元にあった PDF を cbz 形式に変換して突っ込んでみたら幸せになれました :-D&lt;/p&gt;
-&lt;p&gt;パスワードをかけた PDF がいくつかあって，このあたりのものをどうやって変換するかいろいろ調べてみたけれど，画像にするだけなら pdftoppm を使うのが一番確実で早かった．
-それから cbz 形式を作るので定評ある ChainLP というツールは Windows 用で，Mac と Windows 両方使うことになってしまったけど，まあ，手元にはどちらの環境もあるから気にしないことにする(笑)．&lt;/p&gt;
-&lt;p&gt;pdftoppm は xpdf とか poppler, poppler-utils というパッケージに入ってます．
-Mac では簡単にできたけど，Linux でやろうとしたらフォント関連の Warning がたくさん出た．
-xpdf で綺麗に表示が出る状態までちゃんとインストールしないとできないのかもしれない．
-それと，ppm を変換するために ImageMagick が必要です．&lt;/p&gt;
-&lt;p&gt;下記がその手順．&lt;/p&gt;
+&lt;p&gt;古い blog 記事… 需要はまったくないと思うけれど、一度リリースした文書はあまり消したくないので、順次このサイトに移していくことにします。&lt;/p&gt;
+&lt;p&gt;誰も読んでいないと思いますが、気が向いたらまた更新しますｗ&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Proxy を使わなければならない環境で plenv install-cpanm]]></title><description><![CDATA[proxy を通さないと外に出れない環境で、plenv install-cpanm が失敗する時の自分用の覚え書き。]]></description><link>https://m.bug.org/posts/2015041400/cpanm-inside-wall</link><guid isPermaLink="false">https://m.bug.org/posts/2015041400/cpanm-inside-wall</guid><pubDate>Tue, 14 Apr 2015 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;proxy を通さないと外に出れない環境で、plenv install-cpanm が失敗する時の自分用の覚え書き。
+ちゃんと &lt;a href=&quot;https://github.com/tokuhirom/plenv&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://github.com/tokuhirom/plenv&lt;/a&gt; にも書いてあるけど、curl のエラーメッセージでぐぐっても引っかからなかったので、見落としてたのでｗ&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;% &lt;span class=&quot;token assign-left variable&quot;&gt;PLENV_INSTALL_CPANM&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;-v&quot;&lt;/span&gt; plenv install-cpanm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[PDF を cbz 形式にして、kobo touch で読みやすくする]]></title><description><![CDATA[楽天で kobo touch が安かったので(笑)買ってみたんだけれど、PC Watch のレビューなどにも書かれているとおり、手持ちの PDF を読むにはちょっと手間が多すぎるなと感じた。]]></description><link>https://m.bug.org/posts/2012072500/pdf-to-cbz</link><guid isPermaLink="false">https://m.bug.org/posts/2012072500/pdf-to-cbz</guid><pubDate>Wed, 25 Jul 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;楽天で kobo touch が安かったので(笑)買ってみたんだけれど、&lt;a href=&quot;http://pc.watch.impress.co.jp/docs/topic/feature/20120725_548865.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;PC Watch のレビュー&lt;/a&gt;などにも書かれているとおり、手持ちの PDF を読むにはちょっと手間が多すぎるなと感じた。&lt;/p&gt;
+&lt;p&gt;自炊ブームなどのおかげで先達のノウハウがたくさんあって、同僚からそのあたりのツールを教えて貰ったので、手元にあった PDF を cbz 形式に変換して突っ込んでみたら幸せになれました :-D&lt;/p&gt;
+&lt;p&gt;パスワードをかけた PDF がいくつかあって、このあたりのものをどうやって変換するかいろいろ調べてみたけれど、画像にするだけなら pdftoppm を使うのが一番確実で早かった。
+それから cbz 形式を作るので定評ある ChainLP というツールは Windows 用で、Mac と Windows 両方使うことになってしまったけど、手元にはどちらの環境もあるから、気にしない(笑)。&lt;/p&gt;
+&lt;p&gt;pdftoppm は xpdf とか poppler, poppler-utils というパッケージに入ってます。
+Mac では簡単にできたけど、Linux でやろうとしたらフォント関連の Warning がたくさん出た。
+xpdf で綺麗に表示が出る状態までちゃんとインストールしないとできないのかもしれない。
+それと、ppm を変換するために ImageMagick が必要です。&lt;/p&gt;
+&lt;p&gt;下記がその手順。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;pdf からページ毎に分かれた ppm ファイルを生成する．
-画像は後でリサイズされるので，少し大きめに 300dpi 指定して取り込んでみた．
-ファイルサイズが大きくなるので注意．&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;mkdir test
-pdftoppm -r 300 test.pdf test/page
-(test/page-XXX.ppm というファイルが，ページ数分できる)&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;p&gt;pdf からページ毎に分かれた ppm ファイルを生成する。
+画像は後でリサイズされるので、少し大きめに 300dpi 指定して取り込んでみた。
+ファイルサイズが大きくなるので注意。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt;
+pdftoppm -r &lt;span class=&quot;token number&quot;&gt;300&lt;/span&gt; test.pdf test/page
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;test/page-XXX.ppm というファイルが、ページ数分できる&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;ppm ファイルを jpg に変換して，元ファイルを削除する．&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;mogrify -format jpg test/page*.ppm
-rm test/page*.ppm&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;p&gt;ppm ファイルを jpg に変換して、元ファイルを削除する。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;mogrify -format jpg test/page*.ppm
+&lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; test/page*.ppm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;li&gt;ChainLP で，画像ファイルの入ったフォルダから cbz 形式のファイルを生成する．&lt;/li&gt;
+&lt;li&gt;ChainLP で、画像ファイルの入ったフォルダから cbz 形式のファイルを生成する。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;ChainLP が，画像余白のトリミングをそこそこしてくれるので，拡大しなくても読める程度になりました．
-PDF を直接入れたときは，いろいろなところで書かれている kobo touch の PDF 表示不具合もあって使えない感じだったけど，これなら普段読むのにも使えるかなぁ．&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spaces でホットキーが効かなくなる]]></title><description><![CDATA[MacOS X Lion にしてからも，Spaces ではホットキー切り替えをメインに使ってるんですが，これがたまに効かなくなって困ってました．]]></description><link>https://m.bug.org/posts/2012071000/</link><guid isPermaLink="false">https://m.bug.org/posts/2012071000/</guid><pubDate>Tue, 10 Jul 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;MacOS X Lion にしてからも，Spaces ではホットキー切り替えをメインに使ってるんですが，これがたまに効かなくなって困ってました．
-今日また固まったので(笑)，気が向いてググってみたら，やっぱり時々そういうことがおきるみたい．&lt;/p&gt;
+&lt;p&gt;ChainLP が、画像余白のトリミングをそこそこしてくれるので、拡大しなくても読める程度になりました。
+PDF を直接入れたときは、いろいろなところで書かれている kobo touch の PDF 表示不具合もあって使えない感じだったけど、これなら普段読むのにも使えるかなぁ。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spaces でホットキーが効かなくなる]]></title><description><![CDATA[MacOS X Lion にしてからも、Spaces ではホットキー切り替えをメインに使ってるんですが、これがたまに効かなくなって困ってました。]]></description><link>https://m.bug.org/posts/2012071000/hotkey-in-spaces</link><guid isPermaLink="false">https://m.bug.org/posts/2012071000/hotkey-in-spaces</guid><pubDate>Tue, 10 Jul 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;MacOS X Lion にしてからも、Spaces ではホットキー切り替えをメインに使ってるんですが、これがたまに効かなくなって困ってました。
+今日また固まったので(笑)、気が向いてググってみたら、やっぱりときどきそういうことがおきるみたい。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://1-byte.jp/2010/09/12/bug_of_spaces/&quot;&gt;Spaces が固まったときの対処法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://1-byte.jp/2010/09/12/bug_of_spaces/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Spaces が固まったときの対処法&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;killall Dock したら，たしかに直りました．&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mailman の引っ越し]]></title><description><![CDATA[さくらの VPS でプランを乗り換えたので，サーバの引っ越しをする必要ができた．ML の引っ越しのために，Mailman の設定移行方法をメモ．]]></description><link>https://m.bug.org/posts/2012050800/</link><guid isPermaLink="false">https://m.bug.org/posts/2012050800/</guid><pubDate>Tue, 08 May 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;さくらの VPS でプランを乗り換えたので，サーバの引っ越しをする必要ができた． ML の引っ越しのために，Mailman の設定移行方法をメモ．&lt;/p&gt;
-&lt;p&gt;Mailman はパッケージで導入．
-普通に入れたら英語環境だけになってしまったので，インストール後にパッケージ設定をもう一度叩いて，日本語環境をインストール．&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;sudo dpkg-reconfigure mailman&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;パーミッションをチェックするプログラムを実行．&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;sudo check_perms -f&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;サイトの管理者パスワードを設定．&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;sudo mmsitepass&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;基本設定をする．
-基本的には mm_cfg.py を書き写していくだけ．&lt;/p&gt;
-&lt;p&gt;mailman が生成する aliases ファイルを参照するように，Postfix を設定．
-Apache も引っ越し元を参考にしながら設定を写す．&lt;/p&gt;
-&lt;p&gt;引っ越し元サーバの mailman ディレクトリ以下，lists ディレクトリに ML の設定があるので，必要な ML のディレクトリを丸ごとコピーする．&lt;/p&gt;
-&lt;p&gt;archive ディレクトリに過去記事があるので，private または public ディレクトリも丸ごとコピー．&lt;/p&gt;
-&lt;p&gt;mailman/bin/genalias コマンドで aliases を設定．&lt;/p&gt;
-&lt;p&gt;ML の管理者パスワードだけが，上記の方法ではコピーできない． ML ごとにパスワードを設定し直す．&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;killall Dock&lt;/code&gt; したら、たしかに直りました。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mailman の引っ越し]]></title><description><![CDATA[さくらの VPS でプランを乗り換えたので、サーバの引っ越しをする必要ができた。ML の引っ越しのために、Mailman の設定移行方法をメモ。]]></description><link>https://m.bug.org/posts/2012050800/mailman-server-moving</link><guid isPermaLink="false">https://m.bug.org/posts/2012050800/mailman-server-moving</guid><pubDate>Tue, 08 May 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;さくらの VPS でプランを乗り換えたので、サーバの引っ越しをする必要ができた。
+ML の引っ越しのために、Mailman の設定移行方法をメモ。&lt;/p&gt;
+&lt;p&gt;Mailman はパッケージで導入。
+普通に入れたら英語環境だけになってしまったので、インストール後にパッケージ設定をもう一度叩いて、日本語環境をインストール。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; dpkg-reconfigure mailman&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;パーミッションをチェックするプログラムを実行。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; check_perms -f&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;サイトの管理者パスワードを設定。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; mmsitepass&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;基本設定をする。
+基本的には &lt;code class=&quot;language-text&quot;&gt;mm_cfg.py&lt;/code&gt; を書き写していくだけ。&lt;/p&gt;
+&lt;p&gt;mailman が生成する &lt;code class=&quot;language-text&quot;&gt;aliases&lt;/code&gt; ファイルを参照するように、Postfix を設定。
+Apache も引っ越し元を参考にしながら設定を写す。&lt;/p&gt;
+&lt;p&gt;引っ越し元サーバの mailman ディレクトリ以下、&lt;code class=&quot;language-text&quot;&gt;lists&lt;/code&gt; ディレクトリに ML の設定があるので、必要な ML のディレクトリを丸ごとコピーする。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;archive&lt;/code&gt; ディレクトリに過去記事があるので、&lt;code class=&quot;language-text&quot;&gt;private&lt;/code&gt; または &lt;code class=&quot;language-text&quot;&gt;public&lt;/code&gt; ディレクトリも丸ごとコピー。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;mailman/bin/genalias&lt;/code&gt; コマンドで &lt;code class=&quot;language-text&quot;&gt;aliases&lt;/code&gt; を設定。&lt;/p&gt;
+&lt;p&gt;ML の管理者パスワードだけが、上記の方法ではコピーできない。
+ML ごとにパスワードを設定し直す。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;5/10追記:&lt;/strong&gt;
-上記の手順では，各 ML の設定ファイルに埋まっているサイトの URL が変更されない．
-URL が違うために，投稿が保留されたメールの承認などができなくなった．
-修正するためには次のコマンドを実行する．&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;sudo withlist -l -r fix_url ML名&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[ubuntu server に自動アップデート設定]]></title><description><![CDATA[ubuntu server にセキュリティパッチなどを自動アップデートするように設定する．unattended-upgrades パッケージを入れれば OK．]]></description><link>https://m.bug.org/posts/2012042300/</link><guid isPermaLink="false">https://m.bug.org/posts/2012042300/</guid><pubDate>Mon, 23 Apr 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;ubuntu server にセキュリティパッチなどを自動アップデートするように設定する．
-unattended-upgrades パッケージを入れれば OK．&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;apt-get update
-apt-get install unattended-upgrades&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;設定ファイルは /etc/apt/apt.conf.d/50unattended-upgrades にある．適用するアップデート種類を指定する場合はこれを編集する．&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Unattended-Upgrade::Allowed-Origins {
+上記の手順では、各 ML の設定ファイルに埋まっているサイトの URL が変更されない。
+URL が違うために、投稿が保留されたメールの承認などができなくなった。
+修正するためには次のコマンドを実行する。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; withlist -l -r fix_url ML名&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[ubuntu server に自動アップデート設定]]></title><description><![CDATA[ubuntu server にセキュリティパッチなどを自動アップデートするように設定する。unattended-upgrades パッケージを入れれば OK。]]></description><link>https://m.bug.org/posts/2012042300/ubuntu-server-auto-update</link><guid isPermaLink="false">https://m.bug.org/posts/2012042300/ubuntu-server-auto-update</guid><pubDate>Mon, 23 Apr 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;ubuntu server にセキュリティパッチなどを自動アップデートするように設定する。
+unattended-upgrades パッケージを入れれば OK。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; update
+&lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; unattended-upgrades&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;設定ファイルは /etc/apt/apt.conf.d/50unattended-upgrades にある。適用するアップデート種類を指定する場合はこれを編集する。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Unattended-Upgrade::Allowed-Origins {
         &amp;quot;${distro_id} ${distro_codename}-security&amp;quot;;
 //      &amp;quot;${distro_id} ${distro_codename}-updates&amp;quot;;
 //      &amp;quot;${distro_id} ${distro_codename}-proposed&amp;quot;;
 //      &amp;quot;${distro_id} ${distro_codename}-backports&amp;quot;;
-};&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;自動アップデートの対象にしたくないパッケージはここに記述する．&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Unattended-Upgrade::Package-Blacklist {
+};&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;自動アップデートの対象にしたくないパッケージはここに記述する。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Unattended-Upgrade::Package-Blacklist {
 //      &amp;quot;vim&amp;quot;;
 //      &amp;quot;libc6&amp;quot;;
 //      &amp;quot;libc6-dev&amp;quot;;
 //      &amp;quot;libc6-i686&amp;quot;;
-};&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;アップデートログをメールで送る設定．
-成功/失敗共に通知するのか，失敗したときのみを選択できる．&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// Send email to this address for problems or packages upgrades
+};&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;アップデートログをメールで送る設定。
+成功/失敗共に通知するのか、失敗したときのみを選択できる。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// Send email to this address for problems or packages upgrades
 // If empty or unset then no email is sent, make sure that you
 // have a working mail setup on your system. The package &amp;#39;mailx&amp;#39;
 // must be installed or anything that provides /usr/bin/mail.
 Unattended-Upgrade::Mail &amp;quot;root@localhost&amp;quot;;
 // Set this value to &amp;quot;true&amp;quot; to get emails only on errors. Default
 // is to always send a mail if Unattended-Upgrade::Mail is set
-//Unattended-Upgrade::MailOnlyOnError &amp;quot;true&amp;quot;;&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[MySQL 5.5 install on CentOS 6.2]]></title><description><![CDATA[CentOS 6.2 に MySQL 5.5 をインストールしようとしたら，依存関係があってちょっと悩んだ．]]></description><link>https://m.bug.org/posts/2012041700/</link><guid isPermaLink="false">https://m.bug.org/posts/2012041700/</guid><pubDate>Tue, 17 Apr 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;CentOS 6.2 に MySQL 5.5 をインストールしようとしたら，依存関係があってちょっと悩んだ．
-具体的には，postfix などが依存している mysql-libs 5.1 がコンフリクトする．
-この依存関係をどう解消したものかと調べてみると，remi というリポジトリのものを使っているようだった．
-ひとまずそれにならってインストールしてみることにする．&lt;/p&gt;
+//Unattended-Upgrade::MailOnlyOnError &amp;quot;true&amp;quot;;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[MySQL 5.5 install on CentOS 6.2]]></title><description><![CDATA[CentOS 6.2 に MySQL 5.5 をインストールしようとしたら、依存関係があってちょっと悩んだ。]]></description><link>https://m.bug.org/posts/2012041700/mysql55-install-centos</link><guid isPermaLink="false">https://m.bug.org/posts/2012041700/mysql55-install-centos</guid><pubDate>Tue, 17 Apr 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;CentOS 6.2 に MySQL 5.5 をインストールしようとしたら、依存関係があってちょっと悩んだ。
+具体的には、postfix などが依存している mysql-libs 5.1 がコンフリクトする。
+この依存関係をどう解消したものかと調べてみると、remi というリポジトリのものを使っているようだった。
+ひとまずそれにならってインストールしてみることにする。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;epel, remi をインストール&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;sudo rpm -Uvh http://ftp-srv2.kddilabs.jp/Linux/distributions/fedora/epel/6/x86_64/epel-release-6-5.noarch.rpm
-sudo rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;rpm&lt;/span&gt; -Uvh http://ftp-srv2.kddilabs.jp/Linux/distributions/fedora/epel/6/x86_64/epel-release-6-5.noarch.rpm
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;rpm&lt;/span&gt; -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;mysql 関連パッケージをアップデート&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;sudo yum -y --enablerepo=remi install mysql-server mysql-devel mysql-client&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; yum -y --enablerepo&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;remi &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; mysql-server mysql-devel mysql-client&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;mysqld 設定&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;sudo chkconfig mysqld on
-sudo service mysqld start
-sudo mysql_secure_installation&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chkconfig&lt;/span&gt; mysqld on
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;service&lt;/span&gt; mysqld start
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; mysql_secure_installation&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;httpd, phpMyAdmin をインストール&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;sudo yum -y install --enablerepo=epel,remi httpd php phpMyAdmin php-mysql&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; yum -y &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; --enablerepo&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;epel,remi httpd php phpMyAdmin php-mysql&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;phpMyAdmin 設定&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;sudo vi /etc/httpd/conf.d/phpMyAdmin.conf&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;vi&lt;/span&gt; /etc/httpd/conf.d/phpMyAdmin.conf&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;参考:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://rails3beginner.blogspot.jp/2012/01/centos6mysql55.html&quot;&gt;Rails3備忘録: CentOS6にMySQL5.5をインストール&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.limemo.net/blog/2012/03/add-epe-repository-of-yum-on-cenots.html&quot;&gt;CentOSのyumにEPELレポジトリを追加する | Linuxとかをつついてみるブログ&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Apache 2.4.1 install]]></title><description><![CDATA[Apache 2.4.1 をインストールしてみる．]]></description><link>https://m.bug.org/posts/2012041200/</link><guid isPermaLink="false">https://m.bug.org/posts/2012041200/</guid><pubDate>Thu, 12 Apr 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Apache 2.4.1 をインストールしてみる．&lt;/p&gt;
-&lt;p&gt;2.4 系では，APR, APR-Util は添付されなくなったようだ．
-自分で取得してインストールすることにする．
-一緒にインストールする手段もあるけど，別に入れておいてもいいのでそちらの方法で．&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;cd work/apr-1.4.6
-./configure --prefix=/var/service/local
-make
-make test
-make install
-cd ../apr-util-1.4.1
-./configure --prefix=/var/service/local
-make
-make test
-make install&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;httpd をインストール．
-configure の段階で足りないライブラリは足しておくこと．&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;./configure --prefix=/var/service/local/apache24 \
-    --with-apr=/var/service/local \
-    --with-apr-util=/var/service/local \
-    --enable-mods-shared=&amp;quot;reallyall&amp;quot;
-make
-make install&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;特に問題なくインストール完了．&lt;/p&gt;</content:encoded></item><item><title><![CDATA[OmniGraffle にステンシルを追加する]]></title><description><![CDATA[Mac 用の Visio 的な扱いのドローイングツールで，一番メジャーなのが OmniGraffle だと思う．私も図表を書くときにはだいたいこれを使っている．]]></description><link>https://m.bug.org/posts/2012030600/</link><guid isPermaLink="false">https://m.bug.org/posts/2012030600/</guid><pubDate>Tue, 06 Mar 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Mac 用の Visio 的な扱いのドローイングツールで，一番メジャーなのが &lt;a href=&quot;http://www.omnigroup.com/products/omnigraffle/&quot;&gt;OmniGraffle&lt;/a&gt; だと思う．
-私も図表を書くときにはだいたいこれを使っている．&lt;/p&gt;
-&lt;p&gt;標準で入っているものでもそれなりに使えるけれど，やはりサードパーティ製のステンシルでそれっぽいシンボルを追加して使った方が雰囲気が出てよい :-D&lt;/p&gt;
-&lt;p&gt;ステンシルは下記のようなサイトから手に入る．&lt;/p&gt;
+&lt;li&gt;&lt;a href=&quot;http://rails3beginner.blogspot.jp/2012/01/centos6mysql55.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Rails3備忘録: CentOS6にMySQL5.5をインストール&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.limemo.net/blog/2012/03/add-epe-repository-of-yum-on-cenots.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;CentOSのyumにEPELレポジトリを追加する | Linuxとかをつついてみるブログ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Apache 2.4.1 install]]></title><description><![CDATA[Apache 2.4.1 をインストールしてみる。]]></description><link>https://m.bug.org/posts/2012041200/apache241-install</link><guid isPermaLink="false">https://m.bug.org/posts/2012041200/apache241-install</guid><pubDate>Thu, 12 Apr 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Apache 2.4.1 をインストールしてみる。&lt;/p&gt;
+&lt;p&gt;2.4 系では、APR, APR-Util は添付されなくなったようだ。
+自分で取得してインストールすることにする。
+一緒にインストールする手段もあるけど、別に入れておいてもいいのでそちらの方法で。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; work/apr-1.4.6
+./configure --prefix&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/var/service/local
+&lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;/apr-util-1.4.1
+./configure --prefix&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/var/service/local
+&lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;httpd をインストール。
+configure の段階で足りないライブラリは足しておくこと。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;./configure --prefix&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/var/service/local/apache24 &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+    --with-apr&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/var/service/local &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+    --with-apr-util&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/var/service/local &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+    --enable-mods-shared&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;reallyall&quot;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;特に問題なくインストール完了。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[OmniGraffle にステンシルを追加する]]></title><description><![CDATA[Mac 用の Visio 的な扱いのドローイングツールで、一番メジャーなのが OmniGraffle だと思う。私も図表を書くときにはだいたいこれを使っている。]]></description><link>https://m.bug.org/posts/2012030600/add-stencil-to-omnigraffle</link><guid isPermaLink="false">https://m.bug.org/posts/2012030600/add-stencil-to-omnigraffle</guid><pubDate>Tue, 06 Mar 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Mac 用の Visio 的な扱いのドローイングツールで、一番メジャーなのが &lt;a href=&quot;http://www.omnigroup.com/products/omnigraffle/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;OmniGraffle&lt;/a&gt; だと思う。
+私も図表を書くときにはだいたいこれを使っている。&lt;/p&gt;
+&lt;p&gt;標準で入っているものでもそれなりに使えるけれど、やはりサードパーティ製のステンシルにそれっぽいシンボルを追加して使った方が、雰囲気が出てよい :-D&lt;/p&gt;
+&lt;p&gt;ステンシルは下記のようなサイトから手に入る。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.omnigroup.com/products/omnigraffle/extras/&quot;&gt;Extras for OmniGraffle&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://graffletopia.com/&quot;&gt;Graffletopia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.omnigroup.com/products/omnigraffle/extras/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Extras for OmniGraffle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://graffletopia.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Graffletopia&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;ダウンロードしたファイルを解凍し，下記のどちらかのフォルダに置けば使うことができる．
-フォルダ以下のものがまとめて表示されるので，フォルダを作って分類しておくとよい．&lt;/p&gt;
+&lt;p&gt;ダウンロードしたファイルを解凍し、下記のどちらかのフォルダに置けば使うことができる。
+フォルダ以下のものがまとめて表示されるので、フォルダを作って分類しておくとよい。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;~/Library/Application Support/The Omni Group/OmniGraffle/Stencils/&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;~/Library/Application Support/OmniGraffle/Stencils&lt;/code&gt; (古い置き場所)&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[iPod touch のバッテリーがみるみる減る]]></title><description><![CDATA[ある日，いつもどおり仕事を終えて帰り支度をしているときに，iPod touch のバッテリーがほとんど空になっているのに気づいた．]]></description><link>https://m.bug.org/posts/2012030300/</link><guid isPermaLink="false">https://m.bug.org/posts/2012030300/</guid><pubDate>Sat, 03 Mar 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;ある日，いつもどおり仕事を終えて帰り支度をしているときに，iPod touch のバッテリーがほとんど空になっているのに気づいた．
-今朝はちゃんと充電した記憶があるんだけどなー，などと思いつつ，仕事中にずっと再生状態になってたりしてたかなと考えて帰宅．&lt;/p&gt;
-&lt;p&gt;ケーブルにつないで朝まで充電してから翌日もいつもどおり通勤．
-行きの電車では特に問題なし．
-しかし，仕事終了頃にふと iPod touch を見ると，なんとまたバッテリーがほぼ空に！
-さすがにおかしいと気づき，明日は途中で観察してみようと心に決める^^;&lt;/p&gt;
-&lt;p&gt;翌日，昼休み頃に画面を覗くと，曲が再生されたりゲームが動いたりしてないのに，早くもバッテリーが半分近くまで減っている．
-頭をひねりながら設定などを覗いているうちに，Wi-Fi に繋がっていないことに気がついた．
-そういえば，最初にこの状態になったのは WPA2 のキーが変更になった日だったような…&lt;/p&gt;
-&lt;p&gt;ひとまず設定を機内モードに変えて放置．
-帰宅準備中に見たら，バッテリーは昼のレベルのまま．やはり…&lt;/p&gt;
-&lt;p&gt;単に無線に繋がらない場所にずっといるだけならここまでバッテリーは減らないので，&lt;strong&gt;「今までつないでいたはずのSSIDのキーが変わった時」&lt;/strong&gt; に，何度もネゴシエーションと切断を繰り返すためではないかと予想．
-実際に同じ状況にしてみたらもりもりと電池が減った．&lt;/p&gt;
-&lt;p&gt;これ以降，必要ないときには機内モードに切り替えておく癖がつきましたｗ&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Ubuntu Server 11.10 upgrade]]></title><description><![CDATA[Ubuntu Server を 11.10 に upgrade した．]]></description><link>https://m.bug.org/posts/2011110700/</link><guid isPermaLink="false">https://m.bug.org/posts/2011110700/</guid><pubDate>Mon, 07 Nov 2011 20:24:00 GMT</pubDate><content:encoded>&lt;p&gt;Ubuntu Server を 11.10 に upgrade した．
-基本的に手順どおりにやればはまりどころは少ないと思う．
-が，VMware ゲストとして動かしている場合，reboot 後にはまるポイントがあるので注意．&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[iPod touch のバッテリーがみるみる減る]]></title><description><![CDATA[ある日、いつもどおり仕事を終えて帰り支度をしているときに、iPod touch のバッテリーがほとんど空になっているのに気づいた。]]></description><link>https://m.bug.org/posts/2012030300/ipod-touch-battery</link><guid isPermaLink="false">https://m.bug.org/posts/2012030300/ipod-touch-battery</guid><pubDate>Sat, 03 Mar 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;ある日、いつもどおり仕事を終えて帰り支度をしているときに、iPod touch のバッテリーがほとんど空になっているのに気づいた。
+今朝はちゃんと充電した記憶があるんだけどなー、などと思いつつ、仕事中ずっと再生状態になってたりしてたかなと考えて帰宅。&lt;/p&gt;
+&lt;p&gt;ケーブルにつないで朝まで充電してから翌日もいつもどおり通勤。
+行きの電車では問題なし。
+しかし、仕事終了頃にふと iPod touch を見ると、なんとまたバッテリーがほぼ空に！
+さすがにおかしいと気づき、明日は途中で観察してみようと心に決める^^;&lt;/p&gt;
+&lt;p&gt;翌日、昼休み頃に画面を覗くと、曲が再生されたりゲームが動いたりしてないのに早くもバッテリーが半分近くまで減っている。
+頭をひねりながら設定などを覗いているうちに、Wi-Fi に繋がっていないことに気がついた。
+そういえば、はじめてこの状態になったのは WPA2 のキーが変更になった日だったような…&lt;/p&gt;
+&lt;p&gt;ひとまず設定を機内モードに変えて放置。
+帰宅準備中に見たら、バッテリーは昼のレベルのまま。
+やはり…&lt;/p&gt;
+&lt;p&gt;単に無線LANが繋がらない場所にずっといるだけならここまでバッテリーは減らないので、&lt;strong&gt;「今までつないでいたはずの SSID のキーが変わった時」&lt;/strong&gt; に、何度もネゴシエーションと切断を繰り返すためではないかと予想。
+実際にキーを変更してみたらもりもりと電池が減った。&lt;/p&gt;
+&lt;p&gt;これ以降、必要ないときには機内モードに切り替えておく癖がつきましたｗ&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Ubuntu Server 11.10 upgrade]]></title><description><![CDATA[Ubuntu Server を 11.10 に upgrade した]]></description><link>https://m.bug.org/posts/2011110700/ubuntu-server-11-10-upgrade</link><guid isPermaLink="false">https://m.bug.org/posts/2011110700/ubuntu-server-11-10-upgrade</guid><pubDate>Mon, 07 Nov 2011 20:24:00 GMT</pubDate><content:encoded>&lt;p&gt;Ubuntu Server を 11.10 に upgrade した。
+基本的に手順どおりにやればはまりどころは少ないと思う。
+が、VMware ゲストとして動かしている場合、reboot 後にはまるポイントがあるので注意。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://wiki.ubuntulinux.jp/UbuntuTips/Install/UpgradeOneiric&quot;&gt;Ubuntu 11.10 へアップグレードを行うには - Ubuntu Japanese Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://wiki.ubuntulinux.jp/UbuntuTips/Install/UpgradeOneiric&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Ubuntu 11.10 へアップグレードを行うには - Ubuntu Japanese Wiki&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;VMware Server 上で動かしていた VM では下記の問題を踏んだ．
-ネットワークが繋がらなくなるので，コンソールをとらないと解消できない．
-ESXi 上の VM は大丈夫だったなぁ．&lt;/p&gt;
+&lt;p&gt;VMware Server 上で動かしていた VM では下記の問題を踏んだ。
+ネットワークが繋がらなくなるので、コンソールをとらないと解消できない。
+ESXi 上の VM は大丈夫だったなぁ。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.totalcomputersusa.com/2011/10/ubuntu-11-10-booting-system-without-full-network-configuration/&quot;&gt;Ubuntu 11.10 “Booting system without full network configuration” | Total Computers USA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.totalcomputersusa.com/2011/10/ubuntu-11-10-booting-system-without-full-network-configuration/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Ubuntu 11.10 “Booting system without full network configuration” | Total Computers USA&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item></channel></rss>
