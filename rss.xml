@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[momorandum]]></title><description><![CDATA[momo's memorandums.]]></description><link>https://m.bug.org</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 07 Jan 2021 10:55:14 GMT</lastBuildDate><item><title><![CDATA[ATOK 以外の選択肢を試してみる]]></title><description><![CDATA[長年愛用していた ATOK がサブスクリプションメインになってしまったので、別の IME を試してみることにしました。]]></description><link>https://m.bug.org/posts/2021010700/atok-to-other-ime</link><guid isPermaLink="false">https://m.bug.org/posts/2021010700/atok-to-other-ime</guid><pubDate>Thu, 07 Jan 2021 18:30:00 GMT</pubDate><content:encoded>&lt;p&gt;長年愛用していた ATOK がサブスクリプションライセンスメインになってしまったので、別の IME を試してみることにしました。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[momorandum]]></title><description><![CDATA[momo's memorandums.]]></description><link>https://m.bug.org</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 18 Jan 2021 15:23:10 GMT</lastBuildDate><item><title><![CDATA[ATOK 以外の選択肢を試してみる]]></title><description><![CDATA[長年愛用していた ATOK がサブスクリプションメインになってしまったので、別の IME を試してみることにしました。]]></description><link>https://m.bug.org/posts/2021010700/atok-to-other-ime</link><guid isPermaLink="false">https://m.bug.org/posts/2021010700/atok-to-other-ime</guid><pubDate>Thu, 07 Jan 2021 18:30:00 GMT</pubDate><content:encoded>&lt;p&gt;長年愛用していた ATOK がサブスクリプションライセンスメインになってしまったので、別の IME を試してみることにしました。&lt;/p&gt;
 &lt;p&gt;選択肢として思い浮かんだのは&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;ことえり&lt;/li&gt;
@@ -221,9 +221,342 @@ iOS 用のものがどの程度のクオリティかは、しばらく試して�
 &lt;p&gt;昔の日記は HTML べた書きで量が多く、フォーマットも時期によって変わったりしているので、手間も考えてもう変更しない方向にしました。
 いろいろやろうとするとまた挫折しそうだし…ｗ&lt;/p&gt;
 &lt;p&gt;古い blog 記事… 需要はまったくないと思うけれど、一度リリースした文書はあまり消したくないので、順次このサイトに移していくことにします。&lt;/p&gt;
-&lt;p&gt;誰も読んでいないと思いますが、気が向いたらまた更新しますｗ&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Proxy を使わなければならない環境で plenv install-cpanm]]></title><description><![CDATA[proxy を通さないと外に出れない環境で、plenv install-cpanm が失敗する時の自分用の覚え書き。]]></description><link>https://m.bug.org/posts/2015041400/cpanm-inside-wall</link><guid isPermaLink="false">https://m.bug.org/posts/2015041400/cpanm-inside-wall</guid><pubDate>Tue, 14 Apr 2015 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;proxy を通さないと外に出れない環境で、plenv install-cpanm が失敗する時の自分用の覚え書き。
+&lt;p&gt;誰も読んでいないと思いますが、気が向いたらまた更新しますｗ&lt;/p&gt;</content:encoded></item><item><title><![CDATA[SyntaxHighlighter Evolved を Lisp 対応]]></title><description><![CDATA[Emacs Lisp コードを WordPress blog に貼り付けたいので、Lisp 対応プログラムを追加した。]]></description><link>https://m.bug.org/posts/2012112900/syntax-highlighter-evolved-for-lisp</link><guid isPermaLink="false">https://m.bug.org/posts/2012112900/syntax-highlighter-evolved-for-lisp</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;p&gt;Emacs Lisp コードを WordPress blog に貼り付けたいので、Lisp 対応プログラムを追加する。
+下記のページから &lt;code class=&quot;language-text&quot;&gt;shBrushLisp.js&lt;/code&gt; と &lt;code class=&quot;language-text&quot;&gt;wp-syntaxhighlighter-hook.php&lt;/code&gt; をダウンロードする。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/rehanift/wp-syntaxhighlighter-brush-lispy&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;wp-syntaxhighlighter-brush-lispy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;WordPress の &lt;code class=&quot;language-text&quot;&gt;wp-content/plugins&lt;/code&gt; ディレクトリに両方のファイルをコピーする。
+ディレクトリを作成しても OK なので、&lt;code class=&quot;language-text&quot;&gt;wp-syntaxhighlighter-brush-lispy&lt;/code&gt; ディレクトリを作ってそこにコピーした。&lt;/p&gt;
+&lt;p&gt;WordPress の Dashboard から、Plugin -&gt; SyntaxHighlighter Evolved: Lisp Brush を Activate する。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;[lisp]〜[/lisp]&lt;/code&gt;、&lt;code class=&quot;language-text&quot;&gt;[elisp]〜[/elisp]&lt;/code&gt; などで囲んだ範囲がハイライトされるようになった… と、これらのブラケットをそのまま出力したい場合は、&lt;code class=&quot;language-text&quot;&gt;[&lt;/code&gt; (&amp;#x26;#91;) や &lt;code class=&quot;language-text&quot;&gt;]&lt;/code&gt; (&amp;#x26;#93;) はそれぞれ &amp;#x26; 記法で記述する必要がある。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;elisp&quot;&gt;&lt;pre class=&quot;language-elisp&quot;&gt;&lt;code class=&quot;language-elisp&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;elisp&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;;; C &amp;amp; C++&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token car&quot;&gt;autoload&lt;/span&gt; &lt;span class=&quot;token quoted-symbol variable symbol&quot;&gt;&apos;c++-mode&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;cc-mode&quot;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;C++ Editing Mode&quot;&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token car&quot;&gt;autoload&lt;/span&gt; &lt;span class=&quot;token quoted-symbol variable symbol&quot;&gt;&apos;c-mode&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;cc-mode&quot;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token argument&quot;&gt;C&lt;/span&gt; Editing Mode&quot;&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;;(autoload &apos;gtags-mode &quot;gtags&quot; &quot;gtags Mode&quot; t)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token car&quot;&gt;add-hook&lt;/span&gt; &lt;span class=&quot;token quoted-symbol variable symbol&quot;&gt;&apos;c-mode-common-hook&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token car&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token lambda&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token arguments&quot;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token car&quot;&gt;progn&lt;/span&gt;
+                 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token car&quot;&gt;c-set-style&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;bsd&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;setq&lt;/span&gt; c-basic-offset &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;setq&lt;/span&gt; indent-tabs-mode &lt;span class=&quot;token boolean&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;;                (gtags-mode)&lt;/span&gt;
+                 &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;/elisp&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Proxy を使わなければならない環境で plenv install-cpanm]]></title><description><![CDATA[proxy を通さないと外に出れない環境で、plenv install-cpanm が失敗する時の自分用の覚え書き。]]></description><link>https://m.bug.org/posts/2015041400/cpanm-inside-wall</link><guid isPermaLink="false">https://m.bug.org/posts/2015041400/cpanm-inside-wall</guid><pubDate>Tue, 14 Apr 2015 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;proxy を通さないと外に出れない環境で、plenv install-cpanm が失敗する時の自分用の覚え書き。
 ちゃんと &lt;a href=&quot;https://github.com/tokuhirom/plenv&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://github.com/tokuhirom/plenv&lt;/a&gt; にも書いてあるけど、curl のエラーメッセージでぐぐっても引っかからなかったので、見落としてたのでｗ&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;% &lt;span class=&quot;token assign-left variable&quot;&gt;PLENV_INSTALL_CPANM&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;-v&quot;&lt;/span&gt; plenv install-cpanm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[PDF を cbz 形式にして、kobo touch で読みやすくする]]></title><description><![CDATA[楽天で kobo touch が安かったので(笑)買ってみたんだけれど、PC Watch のレビューなどにも書かれているとおり、手持ちの PDF を読むにはちょっと手間が多すぎるなと感じた。]]></description><link>https://m.bug.org/posts/2012072500/pdf-to-cbz</link><guid isPermaLink="false">https://m.bug.org/posts/2012072500/pdf-to-cbz</guid><pubDate>Wed, 25 Jul 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;楽天で kobo touch が安かったので(笑)買ってみたんだけれど、&lt;a href=&quot;http://pc.watch.impress.co.jp/docs/topic/feature/20120725_548865.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;PC Watch のレビュー&lt;/a&gt;などにも書かれているとおり、手持ちの PDF を読むにはちょっと手間が多すぎるなと感じた。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;% &lt;span class=&quot;token assign-left variable&quot;&gt;PLENV_INSTALL_CPANM&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;-v&quot;&lt;/span&gt; plenv install-cpanm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Thunderbird を使ってみる (2)]]></title><description><![CDATA[メーラを Mew から Thunderbird に乗り換えても生きて行けそうな気がしてきた。]]></description><link>https://m.bug.org/posts/2012121800/thunderbird-on-mac-2</link><guid isPermaLink="false">https://m.bug.org/posts/2012121800/thunderbird-on-mac-2</guid><pubDate>Tue, 18 Dec 2012 14:32:20 GMT</pubDate><content:encoded>&lt;p&gt;メーラを Mew から Thunderbird に乗り換えても生きて行けそうな気がしてきた今日この頃。&lt;/p&gt;
+&lt;h2 id=&quot;inbox-以外の未読メールを表示する&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#inbox-%E4%BB%A5%E5%A4%96%E3%81%AE%E6%9C%AA%E8%AA%AD%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B&quot; aria-label=&quot;inbox 以外の未読メールを表示する permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;INBOX 以外の未読メールを表示する&lt;/h2&gt;
+&lt;p&gt;一部のメールは IMAP サーバ側に配信された段階でルールを書いて振り分けしてるんですが、その未読状況も知りたいので調べてみた。&lt;/p&gt;
+&lt;p&gt;『環境設定」-&gt;「詳細」-&gt;「一般」-&gt;「設定エディタ」と辿ると、「高度な設定」的な設定パラメータのリストが編集できる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;mail.server.default.check_all_folders_for_new&lt;/code&gt; を &lt;code class=&quot;language-text&quot;&gt;true&lt;/code&gt; に (INBOX 以外の新着を確認)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;mail.notification.count.inbox_only&lt;/code&gt; を &lt;code class=&quot;language-text&quot;&gt;false&lt;/code&gt; に (INBOX 以外の未読数を数える)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これで、INBOX 以外のフォルダにある未読メールが表示されるので、未読フォルダが使えるようになりましたー。&lt;/p&gt;
+&lt;h2 id=&quot;購読していないフォルダも表示する&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E8%B3%BC%E8%AA%AD%E3%81%97%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%82%82%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B&quot; aria-label=&quot;購読していないフォルダも表示する permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;購読していないフォルダも表示する&lt;/h2&gt;
+&lt;p&gt;最近ちゃんと読んでいる ML だけを購読するようにしていたが、やっぱり漏れがあったり多すぎてチェックが面倒だったりしたので、サーバにある全フォルダを表示することにした。
+全部表示されると多いなぁ… と最初は思ってたけど、未読フォルダ表示でメールを処理するのに慣れたのと、Nostalgy アドオンでフォルダへの移動が簡単になったのも大きいな。&lt;/p&gt;
+&lt;p&gt;「ツール」-&gt;「アカウント設定」-&gt;(各アカウントの)「サーバ設定」-&gt;「メッセージの保存」-&gt;「詳細」ボタンを押して、「購読しているフォルダのみ表示する」のチェックを外せば OK。&lt;/p&gt;
+&lt;h2 id=&quot;メールヘッダを編集する&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%83%A1%E3%83%BC%E3%83%AB%E3%83%98%E3%83%83%E3%83%80%E3%82%92%E7%B7%A8%E9%9B%86%E3%81%99%E3%82%8B&quot; aria-label=&quot;メールヘッダを編集する permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;メールヘッダを編集する&lt;/h2&gt;
+&lt;p&gt;受信メールのヘッダを編集したいなと思って調べたら、Header Tools Light というアドオンが見つかった。
+IMAP サーバにあるメールも編集できるので便利。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[スケジューラーを Lightning に引っ越し]]></title><description><![CDATA[Thunderbird add-on のスケジューラ、Lightning を使ってみました。]]></description><link>https://m.bug.org/posts/2012121801/lighting-scheduler</link><guid isPermaLink="false">https://m.bug.org/posts/2012121801/lighting-scheduler</guid><pubDate>Tue, 18 Dec 2012 12:27:35 GMT</pubDate><content:encoded>&lt;p&gt;個人的環境乗り換え月間なのd(ry&lt;/p&gt;
+&lt;p&gt;スケジューラも、今までは mhc on Emacs を使っていた。&lt;/p&gt;
+&lt;p&gt;仕事関係のスケジュールに関しては使うシステムが決まっているので、仕事以外の予定だけを手元に入れて、休暇や早めに帰る日の予定だけを時々手動で転記。
+たいした量ではないので、これに関しては今後も同じでいいだろう。&lt;/p&gt;
+&lt;p&gt;プライベートな予定も、過去のものを移すことを考えなければ(笑)10件前後だったので、とりあえず新しいスケジューラを試用してみることにした。&lt;/p&gt;
+&lt;p&gt;予定はメールで届くことが多いので、メーラとスケジューラがくっついていれば使いやすいと考えて Thunderbird のアドオンを探してみると、Lightning というスケジューラを見つけた。&lt;/p&gt;
+&lt;p&gt;Google Calendar との連携もできるらしい。
+Google Calendar は全く使っていなかったので、これを期にそちらも使ってみればいいかな… ということで、これも気軽に乗り換えてみることに。&lt;/p&gt;
+&lt;h2 id=&quot;lightning-のインストールと設定&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lightning-%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%A8%E8%A8%AD%E5%AE%9A&quot; aria-label=&quot;lightning のインストールと設定 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Lightning のインストールと設定&lt;/h2&gt;
+&lt;p&gt;Thunderbird のアドオンなので、アドオンメニューから検索してインストールボタンを押すだけでインストールされる。
+Google Calendar との連携には Provider for Google Calendar というアドオンも必要ということで、そちらも一緒にインストール。&lt;/p&gt;
+&lt;p&gt;必要な設定は表示周りぐらい。
+自分の生活パターンに合わせて、デフォルトの表示範囲などを調整。&lt;/p&gt;
+&lt;h2 id=&quot;lightning-を使ってみる&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lightning-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%8B&quot; aria-label=&quot;lightning を使ってみる permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Lightning を使ってみる&lt;/h2&gt;
+&lt;p&gt;表示メニューからカレンダーを開くと画面が出て、ダブルクリックすると入力窓が立ち上がる。
+特に考えなくても使えるので、このあたりは省略。&lt;/p&gt;
+&lt;p&gt;Google Calendar とのデータ連係は、カレンダー一覧から右クリックして「新規カレンダー」を選択。
+「ネットワークのサーバに保存する」から「Google Calendar」を選択。
+カレンダーの URL は、Google Calendar の設定画面から取得できる。&lt;/p&gt;
+&lt;p&gt;限定公開 URL の方を入れても Google アカウントのパスワードを聞かれる…
+という謎な挙動があるが、下記で固有のパスワードを生成してからそれを入力したらうまく読み込めた。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://support.google.com/accounts/bin/answer.py?hl=ja&amp;#x26;answer=185833&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;アプリケーション固有のパスワードを使用してログインする&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;そのカレンダーに対して予定を入力すると、Google Calendar にも予定が反映されることを確認。&lt;/p&gt;
+&lt;p&gt;デフォルトのカレンダーはからっぽなので、Google Calendar の「日本の祝日」なども追加しておくことにする。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8e71b79353e20383bd5c1a0031928904/e4900/calendar-sample.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 64.58333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAACcElEQVQoz02SS2/TQBSF/V/5AbBhAxt2LGBRISpQEQjBoi0SRVVbUEuBEpHSoqp5tyGxHbsZj2PHz8Qejz2Py1itVK7u5uqeT+fc0WjtdtswDIxdx3H6/b6u6/P5PAiCKIpms5k5mfi+fz16nuc4OAzDegwjhJDWG1yUjAuoa7Fcdnr9bm+wyIgESBZZq91pdbrpMuMSlIxxqaQVF0ICLSvt72hsXyGMPYTciWVfDoeGaSrzKIpnnm9OLMO0XC+Yh0kQxdh3pzPsRaGNnamLtTRNEbYuLluWPVZlTUzHC7qXxtjGnh9gjJMkcvEY45FnT08+n+pnptm2/uyfoyHSyrLMhUNALwBJqcLKMONGwCYhzykXXDCWsaorRKeIp4mdl14VYztGZhH7GilIehbTQ0I7mZACpAxzbsfCigWp6qfgPOfFQNK+YL4aJUgKTgFGzq+0ghJ6yPgbqL4prVLLKBcKVk3KGq7iku4v+RfKp7kiJZeEIyLMnCGNlgU9YNUalAe3sHXtXMNSRIJtSP5Wcp3WsJBEICKVM9IKBe9V1TModysOHECo2FZU9w0ciOqdYGvARv/BYC6opW7O821KV4DuVGqncsaL6mpG7BkpKL+BX0u2Cnx4CxcwiTK9hpOPdPkYvM1kl/7YEUetHNkpmCnLKiaBs4AXL2WxAuVFoe4STCiYghnluiakLLNQpsE8tx7Jtfuw0jAHsAdxU7hHJXyVsgHlhqSvhDCq+htKQZhFhJssLe3suHnW3eoM1xuD93cHD+7o9z582kIPjd9PWsdP28bD0WD1pN180fn+vHey3Wu1e+enzebWr8bm6c/1f8gDw56SHuvQAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/8e71b79353e20383bd5c1a0031928904/8ac56/calendar-sample.webp 240w,
+/static/8e71b79353e20383bd5c1a0031928904/d3be9/calendar-sample.webp 480w,
+/static/8e71b79353e20383bd5c1a0031928904/e46b2/calendar-sample.webp 960w,
+/static/8e71b79353e20383bd5c1a0031928904/6257a/calendar-sample.webp 988w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/8e71b79353e20383bd5c1a0031928904/8ff5a/calendar-sample.png 240w,
+/static/8e71b79353e20383bd5c1a0031928904/e85cb/calendar-sample.png 480w,
+/static/8e71b79353e20383bd5c1a0031928904/d9199/calendar-sample.png 960w,
+/static/8e71b79353e20383bd5c1a0031928904/e4900/calendar-sample.png 988w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/8e71b79353e20383bd5c1a0031928904/d9199/calendar-sample.png&quot;
+          alt=&quot;Calendar Sample&quot;
+          title=&quot;Calendar Sample&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;微妙な点&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E5%BE%AE%E5%A6%99%E3%81%AA%E7%82%B9&quot; aria-label=&quot;微妙な点 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;微妙な点&lt;/h2&gt;
+&lt;p&gt;おおむね問題なく使えているけど、一部問題が。&lt;/p&gt;
+&lt;p&gt;移動した後なんかに、カレンダー表示がからっぽになっていることがある。
+何度かあるけど再現性は不明。
+とりあえず、ネットワーク的に切れた後に戻らない雰囲気。
+Thunderbird を立ち上げ直せば復帰するので、気にしない方向で。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Thunderbird を使ってみる (1)]]></title><description><![CDATA[メール環境を Mew から Thunderbird に引っ越した。]]></description><link>https://m.bug.org/posts/2012121700/thunderbird-on-mac-1</link><guid isPermaLink="false">https://m.bug.org/posts/2012121700/thunderbird-on-mac-1</guid><pubDate>Mon, 17 Dec 2012 13:55:31 GMT</pubDate><content:encoded>&lt;p&gt;引き続き個人的環境乗り換え月間ということで、Emacs に依存しすぎている自分の生活を見直す活動(笑)。
+今回はメール環境を Mew から Thunderbird に引っ越してみることにした。&lt;/p&gt;
+&lt;h2 id=&quot;下準備&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E4%B8%8B%E6%BA%96%E5%82%99&quot; aria-label=&quot;下準備 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;下準備&lt;/h2&gt;
+&lt;p&gt;以前に POP から IMAP への乗り換えは済ませていたので、メーラを乗り換えるのは比較的簡単。
+ローカルに置いてあるファイルだけをなんとかすればいい。&lt;/p&gt;
+&lt;p&gt;ざっと調べてみると、直近の送信済みメールと下書きぐらいだったので、それぞれ IMAP サーバに前もって転送する。
+下書き(draft)は、そのまま転送したら上手くいかなかったので、いったん自分にメールして対処^^;。
+まあ、一度だけだし…&lt;/p&gt;
+&lt;p&gt;アドレス帳は、まったく使っていないわけではなかったけど、そんなにメンテナンスもしていなかったので移行は考えず。&lt;/p&gt;
+&lt;p&gt;下準備はこんな感じで。
+手元の環境をすぐに消すわけではないので、えいやっと乗り換えてみて、あまりに困ったら戻ればいい。&lt;/p&gt;
+&lt;h2 id=&quot;インストールと基本設定&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%A8%E5%9F%BA%E6%9C%AC%E8%A8%AD%E5%AE%9A&quot; aria-label=&quot;インストールと基本設定 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;インストールと基本設定&lt;/h2&gt;
+&lt;p&gt;Thunderbird でぐぐってインストール。
+実は Windows には、端末故障なんかの緊急時用にインストールして設定までしてあるんだけど、Mac 版はダウンロードするのも初めて。&lt;/p&gt;
+&lt;p&gt;たくさん使われているパッケージだけあって、特に何事もなく終了。&lt;/p&gt;
+&lt;p&gt;IMAP サーバに繋ぐための設定も、インストラクションがあるのでそのとおりに… と思ったら、「完了」ボタンを押してもサーバに繋がらない旨のメッセージが出てうまくいかず。
+いったん抜けて、間違いつつも保存されていた設定をいじったら繋がるようになった。
+このあたりはサーバ設定も含めた環境との兼ね合いもあるので、詳細は省略。&lt;/p&gt;
+&lt;p&gt;メールの送受信を確認して動作確認は終了。&lt;/p&gt;
+&lt;p&gt;使っているフォルダをざっくりと「購読」する。
+いまどきフォルダわけもなぁ… と思いつつも、ML なんかはすでに振り分け設定も持っていたりするので、当面はいままでを踏襲することに。
+そのうちなんでもアーカイブ + タグ(ラベル？)付け + 検索フォルダでの運用も試してみたいところ。&lt;/p&gt;
+&lt;h2 id=&quot;メッセージフィルタを設定&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%82%92%E8%A8%AD%E5%AE%9A&quot; aria-label=&quot;メッセージフィルタを設定 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;メッセージフィルタを設定&lt;/h2&gt;
+&lt;p&gt;迷惑メールはサーバ側で別フォルダに移動されるが、その他、普通のメール振り分けは手元のメッセージフィルタ設定を使う。&lt;/p&gt;
+&lt;p&gt;任意のヘッダ文字列でひっかけて該当するメールをフォルダに移動。
+未読マークの処理も記述できるので、振り分け後「未読フォルダ」に表示されるかどうかをコントロールできる。&lt;/p&gt;
+&lt;p&gt;このあたりは今までよりも柔軟になるし、要チェックのメールには「スター」が、チェック必須なフォルダには「お気に入り」がつけられるので、見落としの危険性はむしろ減りそうな気がする(笑)。&lt;/p&gt;
+&lt;h2 id=&quot;検索フォルダを作成&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%A4%9C%E7%B4%A2%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%82%92%E4%BD%9C%E6%88%90&quot; aria-label=&quot;検索フォルダを作成 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;検索フォルダを作成&lt;/h2&gt;
+&lt;p&gt;条件にマッチするメールを検索して表示する、検索フォルダを作成する。&lt;/p&gt;
+&lt;p&gt;「ファイル」-&gt;「新規作成」-&gt;「検索フォルダ」で、特にはまることなく作成できた。&lt;/p&gt;
+&lt;p&gt;対象フォルダがひとつずつしか選べないのが困ったところ。
+全部を対象にする検索フォルダを作るためには「SavedSearchThemAll」アドオンを入れるのが簡単だった。&lt;/p&gt;
+&lt;h2 id=&quot;細々と設定&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E7%B4%B0%E3%80%85%E3%81%A8%E8%A8%AD%E5%AE%9A&quot; aria-label=&quot;細々と設定 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;細々と設定&lt;/h2&gt;
+&lt;p&gt;そんなにメモを取らなかったので、覚えている範囲で列挙^^;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;フォントサイズを少し小さめ(11pt)に変更&lt;/li&gt;
+&lt;li&gt;下書きの保存間隔を1分に&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;迷惑メール判断を解除&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;サーバ側で判定しているので、それだけを利用することにした&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;マスターパスワードを設定&lt;/li&gt;
+&lt;li&gt;アドレス帳に登録済みでもメールアドレスを表示するように変更&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;~/.signature&lt;/code&gt; を読み込むように設定&lt;/li&gt;
+&lt;li&gt;「下書き」「送信済み」などは IMAP サーバに保存する&lt;/li&gt;
+&lt;li&gt;メッセージの保管で「アーカイブ」を使う&lt;/li&gt;
+&lt;li&gt;HTML 形式でのメッセージ編集はしない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;アドオンを追加&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%82%A2%E3%83%89%E3%82%AA%E3%83%B3%E3%82%92%E8%BF%BD%E5%8A%A0&quot; aria-label=&quot;アドオンを追加 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;アドオンを追加&lt;/h2&gt;
+&lt;p&gt;ぐぐって、おすすめされていたり気になったアドオンを追加。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Display User Agent&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;User Agent からアイコンを出す。絵が見えるとけっこういい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Folder Pane View Switcher&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;未読フォルダなどを簡単に切り替えるボタンを表示する。メニューから選ぶのは面倒だったので、入れたら楽になった。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Nostalgy&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;メールのフォルダ移動などをキーボードでできるようになる。ドラッグアンドドロップしたり、フォルダリストをマウスでたぐったりしなくてよくなるので便利。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;QuoteCollapse&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;引用を短縮表示。最近は末尾にだらだらと長い引用をつける人が多いので、表示が縮められるのは嬉しい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SavedSearchThemAll&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;検索フォルダの検索対象を全フォルダに拡張する。
+指定してあるフォルダのサブフォルダが全て検索されるようになる。
+対象フォルダをぷちぷち地道にクリックする必要がなくなるのでとても便利… というか、サブフォルダ全部、ぐらいは標準で用意して欲しい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SlideShow&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;添付ファイルをスライドショー的に見れる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;XNote++&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;メッセージに付箋を貼り付けて保存する。らしい。まだ使ってみていない。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;後で送信&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;メールを時間指定で送信する。
+まだ使ってみていない。
+使いそうな気がしたので入れてみたが、やっぱり使わないように思えてきた…^^;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;使い方&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E4%BD%BF%E3%81%84%E6%96%B9&quot; aria-label=&quot;使い方 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;使い方&lt;/h2&gt;
+&lt;p&gt;今までは、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;すべてのメールはいったん INBOX へ (迷惑メールを除く)&lt;/li&gt;
+&lt;li&gt;処理していないメールは INBOX に残す&lt;/li&gt;
+&lt;li&gt;処理したメールから保存用のフォルダに移動する&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;という感じでメールを処理していた。&lt;/p&gt;
+&lt;p&gt;今回環境を引っ越したので、当面はとりあえず下記のような感じで生活してみようかと。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;届いたメールはフィルタでフォルダに振り分ける&lt;/li&gt;
+&lt;li&gt;未読フォルダ機能を使って、必要そうなメールを読む&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;INBOX のメールは、フォルダ振り分け、アーカイブ、削除などで速やかに処理する&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;返信や何らかの処理が必要なメールには「スター」をつけて振り分ける&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;「スター」付きメールを一覧する『検索フォルダ』を作って、定期的にチェックする&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[WordPress を Markdown 書式で更新する(2): Weblogger Mode]]></title><description><![CDATA[HTML を WordPress に API 経由で投稿する。]]></description><link>https://m.bug.org/posts/2012121600/use-markdown-on-wordpress-2</link><guid isPermaLink="false">https://m.bug.org/posts/2012121600/use-markdown-on-wordpress-2</guid><pubDate>Sun, 16 Dec 2012 12:43:46 GMT</pubDate><content:encoded>&lt;p&gt;WordPress を Markdown 書式で更新する (1) で Markdown 書式を HTML にできたので、それを WordPress (以前使っていた blog システム) に投稿する手順を調べてみた。&lt;/p&gt;
+&lt;h2 id=&quot;weblogger-mode-のインストールと設定&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#weblogger-mode-%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%A8%E8%A8%AD%E5%AE%9A&quot; aria-label=&quot;weblogger mode のインストールと設定 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Weblogger Mode のインストールと設定&lt;/h2&gt;
+&lt;p&gt;まずは、プログラムから投稿するために WordPress の XML-RPC インターフェイスを有効にする。
+WordPress なので設定メニューをクリックするだけで OK。
+これは &lt;code class=&quot;language-text&quot;&gt;org2blog&lt;/code&gt; を試したときにやってあったので、今回は省略。&lt;/p&gt;
+&lt;p&gt;Emacs から WordPress への投稿についてググってみたところ、&lt;a href=&quot;http://emacswiki.org/emacs/WebloggerMode&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Weblogger Mode&lt;/a&gt; を使えばいいらしいので、インストールして設定。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://emacswiki.org/emacs/WebloggerMode&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;EmacsWiki: Weblogger Mode&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;上記ページを参考に、&lt;code class=&quot;language-text&quot;&gt;weblogger.el&lt;/code&gt; をダウンロードして &lt;code class=&quot;language-text&quot;&gt;site-lisp&lt;/code&gt; ディレクトリに放り込む。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;elisp&quot;&gt;&lt;pre class=&quot;language-elisp&quot;&gt;&lt;code class=&quot;language-elisp&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;;; weblogger&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;token quoted-symbol variable symbol&quot;&gt;&apos;weblogger&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token car&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token car&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;C-c b&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token quoted-symbol variable symbol&quot;&gt;&apos;weblogger-start-entry&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;M-x weblogger-setup-weblog RET&lt;/code&gt; を実行すると、設定が必要な項目を順番に聞かれるので入力していく。&lt;/p&gt;
+&lt;p&gt;これで Weblogger Mode の設定は終了。&lt;/p&gt;
+&lt;h2 id=&quot;記事の投稿&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E8%A8%98%E4%BA%8B%E3%81%AE%E6%8A%95%E7%A8%BF&quot; aria-label=&quot;記事の投稿 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;記事の投稿&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;M-x weblogger-start-entry RET&lt;/code&gt; で投稿エントリを作成開始。
+次のような感じで、記事のヘッダを入力したバッファが表示される。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Subject: blog 記事のタイトルを入力
+Keywords: 記事のタグを入力？ (試してない)
+Date: 日付文字列
+From: 投稿者
+Newsgroup: 投稿する blog 名称
+--text follows this line--&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Subject:&lt;/code&gt; と &lt;code class=&quot;language-text&quot;&gt;Keywords:&lt;/code&gt; 以外はデフォルト値が入っているので、だいたいは &lt;code class=&quot;language-text&quot;&gt;Subject:&lt;/code&gt; だけ入力している。
+どうも &lt;code class=&quot;language-text&quot;&gt;Date:&lt;/code&gt; フィールドでタイムゾーンがうまく扱われていないらしく、投稿後に確認すると9時間ずれている。
+ググってみると &lt;code class=&quot;language-text&quot;&gt;+0900&lt;/code&gt; をつけたらうまくいったという記述も見かけたんだけど…
+とりあえず、投稿の日付は編集したいことが多いので気にしないという方針で。&lt;/p&gt;
+&lt;p&gt;本文は Markdown から生成した HTML を &lt;code class=&quot;language-text&quot;&gt;C-x i&lt;/code&gt; で読み込む。
+そのままだと HTML ヘッダも含まれてしまっているので、 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;body&amp;gt;〜&amp;lt;/body&amp;gt;&lt;/code&gt; の中身だけ残して削除。
+このへんもちょっと elisp を書いたら対応できそうではあるけど、記事の HTML をいちおう確認して投稿したいので手動対応で。書くの面倒だし(ぉぃ)。&lt;/p&gt;
+&lt;p&gt;いくつか記事を作って試してみて、下記のルールで書けばそのまま張り込めそうということがわかった。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;見出しは &lt;code class=&quot;language-text&quot;&gt;###&lt;/code&gt; (h3) 以下のレベルを使い、必ずなにかのタグ &lt;code class=&quot;language-text&quot;&gt;[tag]&lt;/code&gt; をつける&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;コードブロックは &lt;code class=&quot;language-text&quot;&gt;[コード]〜[/コード]&lt;/code&gt; で囲む&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;あまりスマートじゃないけど、SyntaxHighlighter で使う &lt;code class=&quot;language-text&quot;&gt;[コード]&lt;/code&gt; は HTML タグじゃないからしょうがない…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ちょっと手作業が入るけどブラウザの入力窓で書くのと比べたら断然楽だし、手元に元ファイルが残るので、しばらくこの手でいくことに決めた。
+最近の数エントリは実際に上記の手順で更新してます。
+(注: 以前使っていた blog システムの話です…)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WordPress を Markdown 書式で更新する(1): markdown-mode.el]]></title><description><![CDATA[WordPress を Markdown 書式を使って書きたいので、外部プログラムで工夫してみた。]]></description><link>https://m.bug.org/posts/2012112901/use-markdown-on-wordpress-1</link><guid isPermaLink="false">https://m.bug.org/posts/2012112901/use-markdown-on-wordpress-1</guid><pubDate>Thu, 29 Nov 2012 01:17:55 GMT</pubDate><content:encoded>&lt;p&gt;いいかげん放置状態の日記もなんとかしないとなぁ… と思い立つ。&lt;/p&gt;
+&lt;p&gt;更新がどうしても滞るのは、書くのに手間がかかるから…
+いや、本文を書くのに時間がかかるのはしょうがないんだけど、それ以外の部分は簡単にしたい…^^;&lt;/p&gt;
+&lt;p&gt;なによりも筆が、いや、指が重くなるのは Web の Form から入力する部分。
+それであれば Emacs から更新できればいいよなーと。
+そう思って、以前 &lt;code class=&quot;language-text&quot;&gt;org2blog&lt;/code&gt; というものを試してみたことがあって、これはこれでちゃんと更新はできところまではやったんだけど、org-mode の書式に慣れることができずに頓挫 orz。&lt;/p&gt;
+&lt;p&gt;それぞれに利点があるのは分かるんだけど、Wiki にしてもそんなにたくさんの書式は使い分けたくないよ…&lt;/p&gt;
+&lt;p&gt;そこで今回は、自作のシステムで使ったのでちょっとなじみがあり、&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;github&lt;/a&gt; でも使われている &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Markdown&lt;/a&gt; 書式を使って更新することにした。&lt;/p&gt;
+&lt;h2 id=&quot;markdown-modeel-のインストール&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#markdown-modeel-%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB&quot; aria-label=&quot;markdown modeel のインストール permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;markdown-mode.el のインストール&lt;/h2&gt;
+&lt;p&gt;まずは &lt;code class=&quot;language-text&quot;&gt;markdown-mode.el&lt;/code&gt; を使えるようにする。
+下記のページから &lt;code class=&quot;language-text&quot;&gt;markdown-mode.el&lt;/code&gt; をダウンロード。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://jblevins.org/projects/markdown-mode/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Emacs Markdown Mode&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Markdown 記法を解釈する外部コマンドとして呼び出すプログラムは、Markdown 記法と上位互換の &lt;a href=&quot;http://fletcherpenney.net/multimarkdown/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;MultiMarkdown&lt;/a&gt; を利用する。
+ほとんどのものは元の Markdown 記法で足りるけど、表などの拡張が入っているので、それも使えるかもしれないというもくろみ。
+こちらは MacPorts にあったのでそれを利用。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; port &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; multimarkdown&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Emacs の設定ファイルに下記を記述。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;elisp&quot;&gt;&lt;pre class=&quot;language-elisp&quot;&gt;&lt;code class=&quot;language-elisp&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token car&quot;&gt;autoload&lt;/span&gt; &lt;span class=&quot;token quoted-symbol variable symbol&quot;&gt;&apos;markdown-mode&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;markdown-mode.el&quot;&lt;/span&gt;
+   &lt;span class=&quot;token string&quot;&gt;&quot;Major mode for editing Markdown files&quot;&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;setq&lt;/span&gt; auto-mode-alist
+   &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;cons&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;&apos;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;\\.md&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt; markdown-mode&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; auto-mode-alist&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;setq&lt;/span&gt; markdown-command &lt;span class=&quot;token string&quot;&gt;&quot;/opt/local/bin/multimarkdown&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;拡張子 &lt;code class=&quot;language-text&quot;&gt;.md&lt;/code&gt; でファイルを開くと markdown-mode が起動する。&lt;/p&gt;
+&lt;p&gt;Markdown 記法でドキュメントを書いて &lt;code class=&quot;language-text&quot;&gt;C-c C-c m&lt;/code&gt; すると、別バッファに HTML コンバートした結果が表示される。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;C-c C-c e&lt;/code&gt; すると、拡張子を &lt;code class=&quot;language-text&quot;&gt;.html&lt;/code&gt; にしたファイルをカレントディレクトリに出力する。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[sshfs (FUSE for OS X) をインストール]]></title><description><![CDATA[ssh 越しに遠隔地のファイルを編集する手段のひとつ、sshfs を試してみる。]]></description><link>https://m.bug.org/posts/2012112800/sshfs-on-macos</link><guid isPermaLink="false">https://m.bug.org/posts/2012112800/sshfs-on-macos</guid><pubDate>Wed, 28 Nov 2012 23:01:20 GMT</pubDate><content:encoded>&lt;p&gt;エディタと言えば私は長らく Emacs を使っているわけですが、「やはり他の環境ももっと使ってみなければ！」と強く感じているので、重い腰を上げて他のエディタを使う準備をすることにした。&lt;/p&gt;
+&lt;p&gt;Emacs から離れられない大きな理由の 1 つが Tramp で、ssh 越しに遠隔地のファイルを編集することが多い私には欠かせない逸品。
+しかし、こういう機能を持ったエディタは他に知らないので、これ自体が足かせになるわけで… まずはこの機能の代替品探しから始めることに。&lt;/p&gt;
+&lt;h2 id=&quot;インストール&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB&quot; aria-label=&quot;インストール permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;インストール&lt;/h2&gt;
+&lt;p&gt;リモートのファイルが手元にあるように見えれば、どのエディタを使っても良いことになる。
+そこで、&lt;code class=&quot;language-text&quot;&gt;sshfs&lt;/code&gt; をまずは試してみることに。&lt;/p&gt;
+&lt;p&gt;Mac 用について調べてみたところ、下記をインストールすればよさげ。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://osxfuse.github.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;FUSE for OS X&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このページにある OSXFUSE, SSHFS パッケージをダウンロードしてインストール。
+特に問題なくインストール完了。&lt;/p&gt;
+&lt;h2 id=&quot;試してみる&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E8%A9%A6%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B&quot; aria-label=&quot;試してみる permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;試してみる&lt;/h2&gt;
+&lt;p&gt;手近な ssh ログインできるホストで試してみる。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; ~/mnt
+sshfs host:/path/to/dir ~/mnt
+&lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt; -l ~/mnt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;ファイルリストが表示された。&lt;/p&gt;
+&lt;p&gt;使い終わったら普通に umount すれば接続解除される。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;umount&lt;/span&gt; ~/mnt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;多段-ssh&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E5%A4%9A%E6%AE%B5-ssh&quot; aria-label=&quot;多段 ssh permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;多段 ssh&lt;/h2&gt;
+&lt;p&gt;踏み台を踏んだ先にあるファイルを編集するため、多段 ssh の設定を行う。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;~/.ssh/config&lt;/code&gt; に下記の設定を追加。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Host remote-host
+    ProxyCommand &lt;span class=&quot;token function&quot;&gt;ssh&lt;/span&gt; gateway-host &lt;span class=&quot;token function&quot;&gt;nc&lt;/span&gt; %h %p
+    ServerAliveInterval &lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt;    &lt;span class=&quot;token comment&quot;&gt;# タイムアウトさせないための設定&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;接続するときは下記のように指定する。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;sshfs -o reconnect remote-host:/path/to/dir ~/mnt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;上記のコマンドをエイリアス登録などしておけば OK。
+これでリモートのファイルを普通に編集できるようになった。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[PDF を cbz 形式にして、kobo touch で読みやすくする]]></title><description><![CDATA[楽天で kobo touch が安かったので(笑)買ってみたんだけれど、PC Watch のレビューなどにも書かれているとおり、手持ちの PDF を読むにはちょっと手間が多すぎるなと感じた。]]></description><link>https://m.bug.org/posts/2012072500/pdf-to-cbz</link><guid isPermaLink="false">https://m.bug.org/posts/2012072500/pdf-to-cbz</guid><pubDate>Wed, 25 Jul 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;楽天で kobo touch が安かったので(笑)買ってみたんだけれど、&lt;a href=&quot;http://pc.watch.impress.co.jp/docs/topic/feature/20120725_548865.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;PC Watch のレビュー&lt;/a&gt;などにも書かれているとおり、手持ちの PDF を読むにはちょっと手間が多すぎるなと感じた。&lt;/p&gt;
 &lt;p&gt;自炊ブームなどのおかげで先達のノウハウがたくさんあって、同僚からそのあたりのツールを教えて貰ったので、手元にあった PDF を cbz 形式に変換して突っ込んでみたら幸せになれました :-D&lt;/p&gt;
 &lt;p&gt;パスワードをかけた PDF がいくつかあって、このあたりのものをどうやって変換するかいろいろ調べてみたけれど、画像にするだけなら pdftoppm を使うのが一番確実で早かった。
 それから cbz 形式を作るので定評ある ChainLP というツールは Windows 用で、Mac と Windows 両方使うことになってしまったけど、手元にはどちらの環境もあるから、気にしない(笑)。&lt;/p&gt;
