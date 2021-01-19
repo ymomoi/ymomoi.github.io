@@ -20,8 +20,11 @@
 <url> <loc>https://m.bug.org/posts/2021010700/atok-to-other-ime</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/posts/2012072500/pdf-to-cbz</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/posts/2018090700/try-boostnote</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://m.bug.org/posts/2013021800/git-via-http-proxy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/posts/2012112900/syntax-highlighter-evolved-for-lisp</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://m.bug.org/posts/2013020200/making-rubygems-local-mirror</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/posts/2012112901/use-markdown-on-wordpress-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://m.bug.org/posts/2013022100/building-centos-rpm-local-mirror</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/posts/2012121600/use-markdown-on-wordpress-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/posts/2012121700/thunderbird-on-mac-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/posts/2012121800/thunderbird-on-mac-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -39,12 +42,15 @@
 <url> <loc>https://m.bug.org/tag/omni-graffle</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/tag/pdf</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/tag/perl</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://m.bug.org/tag/ruby</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/tag/security</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://m.bug.org/tag/server</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/tag/thunderbird</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/tag/ubuntu</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/tag/word-press</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/tag/env</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/tag/gatsby</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://m.bug.org/tag/git</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/tag/graphics</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/tag/i-pod</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/tag/ssh</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -55,6 +61,7 @@
 <url> <loc>https://m.bug.org/category/dev</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/category/event</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/category/gadget</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://m.bug.org/category/os</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/category/server</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/category/server/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/category/web</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -64,4 +71,5 @@
 <url> <loc>https://m.bug.org/page/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/page/4</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/page/5</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://m.bug.org/page/6</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
