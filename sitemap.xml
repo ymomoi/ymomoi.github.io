@@ -5,7 +5,9 @@
 <url> <loc>https://m.bug.org/posts/2012121801/lighting-scheduler</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/posts/2012030600/add-stencil-to-omnigraffle</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://m.bug.org/posts/2013022101/ipv6-config-on-linux</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/posts/2012041700/mysql55-install-centos</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://m.bug.org/posts/2013022102/remove-unused-kernel-on-ubuntu-linux</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/posts/2012041200/apache241-install</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/posts/2012050800/mailman-server-moving</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/posts/2012042300/ubuntu-server-auto-update</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -53,6 +55,7 @@
 <url> <loc>https://m.bug.org/tag/git</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/tag/graphics</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/tag/i-pod</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://m.bug.org/tag/network</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/tag/ssh</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/tag/ssmjp</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://m.bug.org/category/app</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

@@ -129,6 +129,18 @@
   Link: </component---src-templates-post-template-js-32a004a3619ef9011e8d.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/posts/2012030600/add-stencil-to-omnigraffle/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/2013022101/ipv6-config-on-linux
+  Link: </webpack-runtime-33ff7e0a754082f7c9b3.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </framework-55f7b2ba736e89fdc740.js>; rel=preload; as=script
+  Link: </532a2f07-549094fa347c85980056.js>; rel=preload; as=script
+  Link: </dc6a8720040df98778fe970bf6c000a41750d3ae-f1aaf66d03f12bc670e6.js>; rel=preload; as=script
+  Link: </app-71e36bb1794559314761.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-dadbfdf3bb56f8249f7e.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-32a004a3619ef9011e8d.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/2013022101/ipv6-config-on-linux/page-data.json>; rel=preload; as=fetch; crossorigin
 /posts/2012041700/mysql55-install-centos
   Link: </webpack-runtime-33ff7e0a754082f7c9b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
@@ -141,6 +153,18 @@
   Link: </component---src-templates-post-template-js-32a004a3619ef9011e8d.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/posts/2012041700/mysql55-install-centos/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/2013022102/remove-unused-kernel-on-ubuntu-linux
+  Link: </webpack-runtime-33ff7e0a754082f7c9b3.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </framework-55f7b2ba736e89fdc740.js>; rel=preload; as=script
+  Link: </532a2f07-549094fa347c85980056.js>; rel=preload; as=script
+  Link: </dc6a8720040df98778fe970bf6c000a41750d3ae-f1aaf66d03f12bc670e6.js>; rel=preload; as=script
+  Link: </app-71e36bb1794559314761.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-dadbfdf3bb56f8249f7e.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-32a004a3619ef9011e8d.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/2013022102/remove-unused-kernel-on-ubuntu-linux/page-data.json>; rel=preload; as=fetch; crossorigin
 /posts/2012041200/apache241-install
   Link: </webpack-runtime-33ff7e0a754082f7c9b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
@@ -705,6 +729,18 @@
   Link: </component---src-templates-tag-template-js-4ec669dfbc1ce8819e34.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tag/i-pod/page-data.json>; rel=preload; as=fetch; crossorigin
+/tag/network
+  Link: </webpack-runtime-33ff7e0a754082f7c9b3.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </framework-55f7b2ba736e89fdc740.js>; rel=preload; as=script
+  Link: </532a2f07-549094fa347c85980056.js>; rel=preload; as=script
+  Link: </dc6a8720040df98778fe970bf6c000a41750d3ae-f1aaf66d03f12bc670e6.js>; rel=preload; as=script
+  Link: </app-71e36bb1794559314761.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-dadbfdf3bb56f8249f7e.js>; rel=preload; as=script
+  Link: </component---src-templates-tag-template-js-4ec669dfbc1ce8819e34.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/tag/network/page-data.json>; rel=preload; as=fetch; crossorigin
 /tag/ssh
   Link: </webpack-runtime-33ff7e0a754082f7c9b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
