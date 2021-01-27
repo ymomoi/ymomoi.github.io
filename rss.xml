@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[momorandum]]></title><description><![CDATA[momo's memorandums.]]></description><link>https://m.bug.org</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 25 Jan 2021 17:36:20 GMT</lastBuildDate><item><title><![CDATA[ATOK 以外の選択肢を試してみる]]></title><description><![CDATA[長年愛用していた ATOK がサブスクリプションメインになってしまったので、別の IME を試してみることにしました。]]></description><link>https://m.bug.org/posts/2021010700/atok-to-other-ime</link><guid isPermaLink="false">https://m.bug.org/posts/2021010700/atok-to-other-ime</guid><pubDate>Thu, 07 Jan 2021 18:30:00 GMT</pubDate><content:encoded>&lt;p&gt;長年愛用していた ATOK がサブスクリプションライセンスメインになってしまったので、別の IME を試してみることにしました。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[momorandum]]></title><description><![CDATA[momo's memorandums.]]></description><link>https://m.bug.org</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 27 Jan 2021 07:47:16 GMT</lastBuildDate><item><title><![CDATA[ATOK 以外の選択肢を試してみる]]></title><description><![CDATA[長年愛用していた ATOK がサブスクリプションメインになってしまったので、別の IME を試してみることにしました。]]></description><link>https://m.bug.org/posts/2021010700/atok-to-other-ime</link><guid isPermaLink="false">https://m.bug.org/posts/2021010700/atok-to-other-ime</guid><pubDate>Thu, 07 Jan 2021 18:30:00 GMT</pubDate><content:encoded>&lt;p&gt;長年愛用していた ATOK がサブスクリプションライセンスメインになってしまったので、別の IME を試してみることにしました。&lt;/p&gt;
 &lt;p&gt;選択肢として思い浮かんだのは&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;ことえり&lt;/li&gt;
@@ -244,7 +244,598 @@ iOS 用のものがどの程度のクオリティかは、しばらく試して�
                  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;/elisp&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Proxy を使わなければならない環境で plenv install-cpanm]]></title><description><![CDATA[proxy を通さないと外に出れない環境で、plenv install-cpanm が失敗する時の自分用の覚え書き。]]></description><link>https://m.bug.org/posts/2015041400/cpanm-inside-wall</link><guid isPermaLink="false">https://m.bug.org/posts/2015041400/cpanm-inside-wall</guid><pubDate>Tue, 14 Apr 2015 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;proxy を通さないと外に出れない環境で、plenv install-cpanm が失敗する時の自分用の覚え書き。
 ちゃんと &lt;a href=&quot;https://github.com/tokuhirom/plenv&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://github.com/tokuhirom/plenv&lt;/a&gt; にも書いてあるけど、curl のエラーメッセージでぐぐっても引っかからなかったので、見落としてたのでｗ&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;% &lt;span class=&quot;token assign-left variable&quot;&gt;PLENV_INSTALL_CPANM&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;-v&quot;&lt;/span&gt; plenv install-cpanm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[CentOS の rpm local mirror を作る]]></title><description><![CDATA[前から欲しいと思っていた rpm ファイルの local mirror も作ることにした。]]></description><link>https://m.bug.org/posts/2013022100/building-centos-rpm-local-mirror</link><guid isPermaLink="false">https://m.bug.org/posts/2013022100/building-centos-rpm-local-mirror</guid><pubDate>Thu, 21 Feb 2013 19:20:44 GMT</pubDate><content:encoded>&lt;p&gt;外部ネットワークとは隔離された環境でいろいろ作業する時のために、だいぶ前から欲しいと思っていた rpm ファイルの local mirror も作ることにしました。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;% &lt;span class=&quot;token assign-left variable&quot;&gt;PLENV_INSTALL_CPANM&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;-v&quot;&lt;/span&gt; plenv install-cpanm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Time Machine のステータスバー表示と環境設定の表示が一致しない]]></title><description><![CDATA[ふと気がつくと Time Machine のステータスバー表示がエラーになっていることが多くて、ちょっと気になっていた。]]></description><link>https://m.bug.org/posts/2014081500/output-difference-between-status-bar-and-preference</link><guid isPermaLink="false">https://m.bug.org/posts/2014081500/output-difference-between-status-bar-and-preference</guid><pubDate>Fri, 15 Aug 2014 12:41:30 GMT</pubDate><content:encoded>&lt;p&gt;最近、ふと気がつくと Time Machine のステータスバー表示がエラーになっていることが多くてちょっと気になっていた。
+自動バックアップが働くはずの場所でエラー表示になっている場合、ポップアップの表示はこんな感じ。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 564px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f55afd9bd8699403474feb3503a4c7a3/ba4d9/tm-pop.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 52.916666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB+ElEQVQozzVR25KaQBDl/78kqTxkk1S0tvLgw+4aI4KACnIdREBABLkMwwygaTTpOtPV09Wn+0wPp1qlKOysnXwwdd+xjpZ+cu0AmSdkhcgMkR26djjGlmcbwTN27Szy8zjkWFtbunZAKEvTIruERy+JTtn57B/cKAjSJK6ueQnIc4wbsPKa4arsaNszylU1Ph5QmkRdS+LAP5/CS5LcHzZ0FJJd2zDSdKS53263YYAMaxvaYNZgjuBqr+5MXVdkaasoIGG7Ub58/vTj+7f0nNKxlIyets8Yev0DaTjGWFXXeZ5nWVZWVVVXEKi7napqcLn/t77v2wbDQEow0NjDc4QQ9+DGcZxf8yiKgJmml6IoIH9JU8s0bdvRdQPajhJwDbQnRnKDsSgIm+3WdV3HsT3PMwzDdZHvBwihFc+veGE6nZ7TC6wAHt+3pKdkgIVRwtVVyS9XUCQI4uvrL3655P/w67XkODBQn8/nRVGC7K6DZ2I4D+ZIBnB914Ek+APKGNSRhkBM2hZjTGlb13U/DLDn4TbA38DYbhQ8agbPwRo1dQ8GgteSpOv7vbZHjiPJ0teXl5+TyWw2E0Xx/eN9Op34ngctBkZvHQNwMNY/+htFMU1DVpSVsNJg06pqWebvxQI4i8UCrrIs8x9vjrYNHatMwjIOqyT8C14mVk2jW8UaAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/f55afd9bd8699403474feb3503a4c7a3/8ac56/tm-pop.webp 240w,
+/static/f55afd9bd8699403474feb3503a4c7a3/d3be9/tm-pop.webp 480w,
+/static/f55afd9bd8699403474feb3503a4c7a3/0a341/tm-pop.webp 564w&quot;
+          sizes=&quot;(max-width: 564px) 100vw, 564px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/f55afd9bd8699403474feb3503a4c7a3/8ff5a/tm-pop.png 240w,
+/static/f55afd9bd8699403474feb3503a4c7a3/e85cb/tm-pop.png 480w,
+/static/f55afd9bd8699403474feb3503a4c7a3/ba4d9/tm-pop.png 564w&quot;
+          sizes=&quot;(max-width: 564px) 100vw, 564px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/f55afd9bd8699403474feb3503a4c7a3/ba4d9/tm-pop.png&quot;
+          alt=&quot;ステータスバーの表示&quot;
+          title=&quot;ステータスバーの表示&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;ここで Time Machine 環境設定を開くと…&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/29daca19ad925a80583920a584872b17/b1584/tm-env.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 38.75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAIAAAB2/0i6AAAACXBIWXMAABYlAAAWJQFJUiTwAAABdklEQVQY0zVR0U7CMBTtT/kP/oXPavTVxITP8BHfjCbGhPhijAmEsLVrYevYButgbNBtLRCzufCCb96BnLQnuc0597aniBKTEDIYDLrdLqN0yNhxYWyahgF8LBmjrsulXMkVYJnnOTP6iA1HlmWBDszEsiil0AvDhlOLAuNDiTGxbTtNl2maJkmykhnp99D3AVmWbbfbsiyBszzPpCwaaqbAkOwAqNIT4Nx3hqiu669ev/3Wab+8xnECpdY6Xa6oG8WpBCPn7jRsEMfxbDabz+dCiEKpyB+j+qe6umudXd6cX98axNrtdpu1HrnBYwdbbqSLnHMeCjGZBFEUgX+xiGGyUlp4HP3u9+8fnxf3rYen56osq6pSWoEGE+r7gZQSYxwEgWj8E9/zfN+HJ+j1Ohw7CJppraLpdJkkiyQpCriRgkyECD1vDDrwgAZCOjKMbTRaT7mNHMehjJkYG6YJHwbSzWYDHsipKJqoQJqf8J8cxKlU6PE/6d6Oz6uIjf8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/29daca19ad925a80583920a584872b17/8ac56/tm-env.webp 240w,
+/static/29daca19ad925a80583920a584872b17/d3be9/tm-env.webp 480w,
+/static/29daca19ad925a80583920a584872b17/e46b2/tm-env.webp 960w,
+/static/29daca19ad925a80583920a584872b17/ec5ae/tm-env.webp 1342w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/29daca19ad925a80583920a584872b17/8ff5a/tm-env.png 240w,
+/static/29daca19ad925a80583920a584872b17/e85cb/tm-env.png 480w,
+/static/29daca19ad925a80583920a584872b17/d9199/tm-env.png 960w,
+/static/29daca19ad925a80583920a584872b17/b1584/tm-env.png 1342w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/29daca19ad925a80583920a584872b17/d9199/tm-env.png&quot;
+          alt=&quot;環境設定内の表示&quot;
+          title=&quot;環境設定内の表示&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;バックアップできてるみたい…&lt;/p&gt;
+&lt;p&gt;ステータスバーの表示が更新されていないということか。なにがきっかけでこうなるんだろうな…&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Apple Time Capsule の HDD を交換する]]></title><description><![CDATA[Time Capsule の HDD が壊れたので自分で入れ替えた。]]></description><link>https://m.bug.org/posts/2014061000/apple-time-capsule-hdd-replacement</link><guid isPermaLink="false">https://m.bug.org/posts/2014061000/apple-time-capsule-hdd-replacement</guid><pubDate>Tue, 10 Jun 2014 00:11:47 GMT</pubDate><content:encoded>&lt;p&gt;Time Capsule の HDD が壊れたので、どうしようか色々考えたが、とりあえず HDD を買ってきて入れ替えてみることにした。
+もう数年前の製品だから修理に出すのもアレだし、もし使えなかったとしても HDD はそのまま他に使えるんだから、まずは試しにやってみようということで。&lt;/p&gt;
+&lt;p&gt;まずは裏蓋をはがす。マイナスドライバーでとっかかりを作ってから徐々に引っ張るとはがれてきた。途中で破れてしまったけど、また貼り付けるだけなので気にしない方向で^^;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fc12c46dbcef2ebeb4a8accabef708fa/5ef17/14060400.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgP/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABcTemWpuFf//EABsQAAICAwEAAAAAAAAAAAAAAAECABEDISIx/9oACAEBAAEFAm7BxFYFan8XYsz/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARL/2gAIAQMBAT8Bar//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwFH/8QAGxAAAgEFAAAAAAAAAAAAAAAAAREAAiAhIqH/2gAIAQEABj8CRqU0LmR2z//EABoQAAIDAQEAAAAAAAAAAAAAAAABETFBIVH/2gAIAQEAAT8hV2h6N5gb0hrBoaekFNn/2gAMAwEAAgADAAAAEAjv/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/EBR2H//EABcRAAMBAAAAAAAAAAAAAAAAAAABIRH/2gAIAQIBAT8Qdhg//8QAHRABAAICAgMAAAAAAAAAAAAAAQAhETFBUWGBsf/aAAgBAQABPxCgZSlPuYJyei+jMwSscI+SjG9TiTQwlTUEHmf/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/fc12c46dbcef2ebeb4a8accabef708fa/8ac56/14060400.webp 240w,
+/static/fc12c46dbcef2ebeb4a8accabef708fa/d3be9/14060400.webp 480w,
+/static/fc12c46dbcef2ebeb4a8accabef708fa/e46b2/14060400.webp 960w,
+/static/fc12c46dbcef2ebeb4a8accabef708fa/b2d4b/14060400.webp 1152w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/fc12c46dbcef2ebeb4a8accabef708fa/09b79/14060400.jpg 240w,
+/static/fc12c46dbcef2ebeb4a8accabef708fa/7cc5e/14060400.jpg 480w,
+/static/fc12c46dbcef2ebeb4a8accabef708fa/6a068/14060400.jpg 960w,
+/static/fc12c46dbcef2ebeb4a8accabef708fa/5ef17/14060400.jpg 1152w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/fc12c46dbcef2ebeb4a8accabef708fa/6a068/14060400.jpg&quot;
+          alt=&quot;14060400.jpg&quot;
+          title=&quot;14060400.jpg&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;はがれたら、見えているネジを外す。ゴムの輪に囲まれている場所は中の HDD の足になっている部分なので、今は外さなくても大丈夫。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/cb942de179638dc309808a49a7607469/5ef17/14060401.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDAv/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABzSDwyGN//8QAGhABAAIDAQAAAAAAAAAAAAAAAQACAxATIf/aAAgBAQABBQI8ctqs5kdKz//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/AWf/xAAWEQADAAAAAAAAAAAAAAAAAAABAhD/2gAIAQIBAT8BUz//xAAYEAACAwAAAAAAAAAAAAAAAAAAAQIgIv/aAAgBAQAGPwJGY1//xAAZEAEAAwEBAAAAAAAAAAAAAAABABEhMYH/2gAIAQEAAT8hYp3YwUBFdL8ZxLXsE4z/2gAMAwEAAgADAAAAEIsv/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAh/9oACAEDAQE/EAq//8QAFREBAQAAAAAAAAAAAAAAAAAAECH/2gAIAQIBAT8Qgf/EABoQAQEBAQEBAQAAAAAAAAAAAAERADEhQXH/2gAIAQEAAT8QIFEUXpjSC++3QRInEhklnTPsV0dA/Df/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/cb942de179638dc309808a49a7607469/8ac56/14060401.webp 240w,
+/static/cb942de179638dc309808a49a7607469/d3be9/14060401.webp 480w,
+/static/cb942de179638dc309808a49a7607469/e46b2/14060401.webp 960w,
+/static/cb942de179638dc309808a49a7607469/b2d4b/14060401.webp 1152w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/cb942de179638dc309808a49a7607469/09b79/14060401.jpg 240w,
+/static/cb942de179638dc309808a49a7607469/7cc5e/14060401.jpg 480w,
+/static/cb942de179638dc309808a49a7607469/6a068/14060401.jpg 960w,
+/static/cb942de179638dc309808a49a7607469/5ef17/14060401.jpg 1152w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/cb942de179638dc309808a49a7607469/6a068/14060401.jpg&quot;
+          alt=&quot;14060401.jpg&quot;
+          title=&quot;14060401.jpg&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;逆さにすると簡単に開く。電源側だけファンのケーブルが付いているので、それだけ注意。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3c12a0691f76ada23523821ab796adc6/5ef17/14060402.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAUA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAXnTIihoWP/EAB0QAAICAQUAAAAAAAAAAAAAAAECAxIABBETISP/2gAIAQEAAQUC5am+7nUquSDzhJse2//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABwQAAIABwAAAAAAAAAAAAAAAAABAhEiIzFRgf/aAAgBAQAGPwKUSLbK8nBDb2f/xAAaEAEAAgMBAAAAAAAAAAAAAAABACERMUFR/9oACAEBAAE/IUqwDsUms42MoqeS4S1LMiCLNZj3xY//2gAMAwEAAgADAAAAEIT/AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABcRAQADAAAAAAAAAAAAAAAAAAABEUH/2gAIAQIBAT8QxUP/xAAbEAEBAQADAQEAAAAAAAAAAAABEQAhMYFBUf/aAAgBAQABPxAVMgTb5+avBwPIfessMyqMGt4oPozvDFiFDM1VK3f/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/3c12a0691f76ada23523821ab796adc6/8ac56/14060402.webp 240w,
+/static/3c12a0691f76ada23523821ab796adc6/d3be9/14060402.webp 480w,
+/static/3c12a0691f76ada23523821ab796adc6/e46b2/14060402.webp 960w,
+/static/3c12a0691f76ada23523821ab796adc6/b2d4b/14060402.webp 1152w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/3c12a0691f76ada23523821ab796adc6/09b79/14060402.jpg 240w,
+/static/3c12a0691f76ada23523821ab796adc6/7cc5e/14060402.jpg 480w,
+/static/3c12a0691f76ada23523821ab796adc6/6a068/14060402.jpg 960w,
+/static/3c12a0691f76ada23523821ab796adc6/5ef17/14060402.jpg 1152w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/3c12a0691f76ada23523821ab796adc6/6a068/14060402.jpg&quot;
+          alt=&quot;14060402.jpg&quot;
+          title=&quot;14060402.jpg&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;HDD に張り付いている温度センサー(たぶん？)をはがす。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e74528c316124535267072e603dc1ab3/bcd4e/14060403.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFAf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBA//aAAwDAQACEAMQAAABZyXXKBcmf//EABkQAAMBAQEAAAAAAAAAAAAAAAABAgMhE//aAAgBAQABBQL0yyI0qi5TeK5XBn//xAAYEQACAwAAAAAAAAAAAAAAAAAAAQIRIf/aAAgBAwEBPwGTs0//xAAWEQEBAQAAAAAAAAAAAAAAAAAAETH/2gAIAQIBAT8BxX//xAAbEAACAQUAAAAAAAAAAAAAAAAAARACISJxkf/aAAgBAQAGPwK3DJuGyjUf/8QAGhAAAgMBAQAAAAAAAAAAAAAAAAERITFBUf/aAAgBAQABPyHHvw5Fidh4SFOBFS0cPZsZzp//2gAMAwEAAgADAAAAECjf/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEx/9oACAEDAQE/ENCn/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERMf/aAAgBAgEBPxDErv/EAB0QAQACAgIDAAAAAAAAAAAAAAEAESExQWFxkcH/2gAIAQEAAT8QrN+6KS+I9WauCr6zKEBWlX7OX0U+4DBCjBtogsFP/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/e74528c316124535267072e603dc1ab3/8ac56/14060403.webp 240w,
+/static/e74528c316124535267072e603dc1ab3/d3be9/14060403.webp 480w,
+/static/e74528c316124535267072e603dc1ab3/e46b2/14060403.webp 960w,
+/static/e74528c316124535267072e603dc1ab3/f992d/14060403.webp 1440w,
+/static/e74528c316124535267072e603dc1ab3/fce87/14060403.webp 1632w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/e74528c316124535267072e603dc1ab3/09b79/14060403.jpg 240w,
+/static/e74528c316124535267072e603dc1ab3/7cc5e/14060403.jpg 480w,
+/static/e74528c316124535267072e603dc1ab3/6a068/14060403.jpg 960w,
+/static/e74528c316124535267072e603dc1ab3/644c5/14060403.jpg 1440w,
+/static/e74528c316124535267072e603dc1ab3/bcd4e/14060403.jpg 1632w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/e74528c316124535267072e603dc1ab3/6a068/14060403.jpg&quot;
+          alt=&quot;14060403.jpg&quot;
+          title=&quot;14060403.jpg&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;HDD は特に固定されていないので、ケーブルを抜けばはずれます。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/db532714caa05c3363553b7baf0589b4/bcd4e/14060404.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGzJaN5gD//xAAbEAEAAgIDAAAAAAAAAAAAAAABAhEAAxMUIf/aAAgBAQABBQLsJnLsuKTIFtexWv/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAIDAQAAAAAAAAAAAAAAAAARAQIQIf/aAAgBAQAGPwJVqRKGju//xAAbEAACAgMBAAAAAAAAAAAAAAAAAREhMUFRcf/aAAgBAQABPyGudyHC4Qu7uoVQkg/CYlRn/9oADAMBAAIAAwAAABDsH//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EEn/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAeEAEAAgIBBQAAAAAAAAAAAAABABEhMVEQQWGR0f/aAAgBAQABPxC1bhqxtjCR5rDz8gdBwKzoYFgnY+odFMup/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/db532714caa05c3363553b7baf0589b4/8ac56/14060404.webp 240w,
+/static/db532714caa05c3363553b7baf0589b4/d3be9/14060404.webp 480w,
+/static/db532714caa05c3363553b7baf0589b4/e46b2/14060404.webp 960w,
+/static/db532714caa05c3363553b7baf0589b4/f992d/14060404.webp 1440w,
+/static/db532714caa05c3363553b7baf0589b4/fce87/14060404.webp 1632w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/db532714caa05c3363553b7baf0589b4/09b79/14060404.jpg 240w,
+/static/db532714caa05c3363553b7baf0589b4/7cc5e/14060404.jpg 480w,
+/static/db532714caa05c3363553b7baf0589b4/6a068/14060404.jpg 960w,
+/static/db532714caa05c3363553b7baf0589b4/644c5/14060404.jpg 1440w,
+/static/db532714caa05c3363553b7baf0589b4/bcd4e/14060404.jpg 1632w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/db532714caa05c3363553b7baf0589b4/6a068/14060404.jpg&quot;
+          alt=&quot;14060404.jpg&quot;
+          title=&quot;14060404.jpg&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;HDD に付いている、出っ張ったネジを外す。これが蓋の穴にはまって固定するようになっている。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4094086a4bdb7ecb7e094e66aae6d7c7/bcd4e/14060405.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAB16unKcuD/8QAGhAAAwADAQAAAAAAAAAAAAAAAAECAxESE//aAAgBAQABBQLutrML0HKUxEyj/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAgMBAQAAAAAAAAAAAAAAAAECITEQMv/aAAgBAQAGPwL1FGFIgktKXP/EABsQAQADAQADAAAAAAAAAAAAAAEAESFBEGGB/9oACAEBAAE/IXStPsOitvOR02B9QqIAXIArHx//2gAMAwEAAgADAAAAEJs//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERMf/aAAgBAwEBPxBq6Q//xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAIAQIBAT8QmI//xAAdEAEBAAIBBQAAAAAAAAAAAAABEQAhMVFhkaHh/9oACAEBAAE/EKG/gHpveAB0NhldsNapZ9ZHhIirOvOPKQ5lfOOf/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/4094086a4bdb7ecb7e094e66aae6d7c7/8ac56/14060405.webp 240w,
+/static/4094086a4bdb7ecb7e094e66aae6d7c7/d3be9/14060405.webp 480w,
+/static/4094086a4bdb7ecb7e094e66aae6d7c7/e46b2/14060405.webp 960w,
+/static/4094086a4bdb7ecb7e094e66aae6d7c7/f992d/14060405.webp 1440w,
+/static/4094086a4bdb7ecb7e094e66aae6d7c7/fce87/14060405.webp 1632w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/4094086a4bdb7ecb7e094e66aae6d7c7/09b79/14060405.jpg 240w,
+/static/4094086a4bdb7ecb7e094e66aae6d7c7/7cc5e/14060405.jpg 480w,
+/static/4094086a4bdb7ecb7e094e66aae6d7c7/6a068/14060405.jpg 960w,
+/static/4094086a4bdb7ecb7e094e66aae6d7c7/644c5/14060405.jpg 1440w,
+/static/4094086a4bdb7ecb7e094e66aae6d7c7/bcd4e/14060405.jpg 1632w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/4094086a4bdb7ecb7e094e66aae6d7c7/6a068/14060405.jpg&quot;
+          alt=&quot;14060405.jpg&quot;
+          title=&quot;14060405.jpg&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;蓋側の穴はこんな感じ。制震用のゴムもついてますね。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/054636606bc673c706b846e0c272c0f3/5ef17/14060406.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAF3OA+TxRB//8QAGRABAQADAQAAAAAAAAAAAAAAAQIAAxEE/9oACAEBAAEFAtdzykpejOeelODn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGRAAAgMBAAAAAAAAAAAAAAAAAAEQESEy/9oACAEBAAY/Auki1sOFZ//EABkQAQEBAQEBAAAAAAAAAAAAAAERAFEhQf/aAAgBAQABPyEKqDrrtj49xWO9euaRWxyVAWb/2gAMAwEAAgADAAAAENTP/8QAFREBAQAAAAAAAAAAAAAAAAAAACH/2gAIAQMBAT8QR//EABYRAQEBAAAAAAAAAAAAAAAAAAEQIf/aAAgBAgEBPxBwn//EABsQAQADAQADAAAAAAAAAAAAAAEAESFBUZGx/9oACAEBAAE/EKIw2ggvlQ+ISe34jXYtNPUKLGI8yJFB1J//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/054636606bc673c706b846e0c272c0f3/8ac56/14060406.webp 240w,
+/static/054636606bc673c706b846e0c272c0f3/d3be9/14060406.webp 480w,
+/static/054636606bc673c706b846e0c272c0f3/e46b2/14060406.webp 960w,
+/static/054636606bc673c706b846e0c272c0f3/b2d4b/14060406.webp 1152w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/054636606bc673c706b846e0c272c0f3/09b79/14060406.jpg 240w,
+/static/054636606bc673c706b846e0c272c0f3/7cc5e/14060406.jpg 480w,
+/static/054636606bc673c706b846e0c272c0f3/6a068/14060406.jpg 960w,
+/static/054636606bc673c706b846e0c272c0f3/5ef17/14060406.jpg 1152w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/054636606bc673c706b846e0c272c0f3/6a068/14060406.jpg&quot;
+          alt=&quot;14060406.jpg&quot;
+          title=&quot;14060406.jpg&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;新しい HDD にネジをつけてケーブルを挿し、元の場所に置く。温度センサーを適当な場所に戻す。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/499f2bb54336f378163110b3d54e7915/bcd4e/14060407.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGQAAAQUAAAAAAAAAAAAAAAAAAAECAwQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAFs9LRwQBP/xAAaEAEAAgMBAAAAAAAAAAAAAAABAgMQERIh/9oACAEBAAEFAq5o66I2TgVPpj//xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREx/9oACAEDAQE/AZxb/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AbWv/8QAHhAAAQIHAQAAAAAAAAAAAAAAAAEREBIhMUJhcYH/2gAIAQEABj8CXFNFX9Jbi8Gh/8QAGxABAAICAwAAAAAAAAAAAAAAAQAxESFRgZH/2gAIAQEAAT8hEhy9oU+xtt7KUJTEMUNcquIT/9oADAMBAAIAAwAAABATD//EABYRAQEBAAAAAAAAAAAAAAAAAAEAIf/aAAgBAwEBPxAaYV//xAAXEQEAAwAAAAAAAAAAAAAAAAABEBFR/9oACAECAQE/EK0Nh//EABsQAQADAAMBAAAAAAAAAAAAAAEAESExUWFB/9oACAEBAAE/EL8tvYjwUohOoS0NvF8gFGCjtdewnRSzgZeDdPTlmxsMep//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/499f2bb54336f378163110b3d54e7915/8ac56/14060407.webp 240w,
+/static/499f2bb54336f378163110b3d54e7915/d3be9/14060407.webp 480w,
+/static/499f2bb54336f378163110b3d54e7915/e46b2/14060407.webp 960w,
+/static/499f2bb54336f378163110b3d54e7915/f992d/14060407.webp 1440w,
+/static/499f2bb54336f378163110b3d54e7915/fce87/14060407.webp 1632w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/499f2bb54336f378163110b3d54e7915/09b79/14060407.jpg 240w,
+/static/499f2bb54336f378163110b3d54e7915/7cc5e/14060407.jpg 480w,
+/static/499f2bb54336f378163110b3d54e7915/6a068/14060407.jpg 960w,
+/static/499f2bb54336f378163110b3d54e7915/644c5/14060407.jpg 1440w,
+/static/499f2bb54336f378163110b3d54e7915/bcd4e/14060407.jpg 1632w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/499f2bb54336f378163110b3d54e7915/6a068/14060407.jpg&quot;
+          alt=&quot;14060407.jpg&quot;
+          title=&quot;14060407.jpg&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;蓋をして仮止め。電源を入れたら無事認識した。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a0c01c0f2be94e368702d1afe6e4db81/5ef17/14060408.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABTRzmiJMP/8QAGhAAAgMBAQAAAAAAAAAAAAAAAQIAAxESIf/aAAgBAQABBQKhV25a+MikwsYT7//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAQADAQAAAAAAAAAAAAAAAAEAESIg/9oACAEBAAY/AtlkyI8//8QAGxAAAgEFAAAAAAAAAAAAAAAAAAFBESExUYH/2gAIAQEAAT8hyZQgZ6wO8Wk3Rg//2gAMAwEAAgADAAAAEJv/AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABURAQEAAAAAAAAAAAAAAAAAAAAh/9oACAECAQE/EKr/xAAcEAEAAwACAwAAAAAAAAAAAAABABEhUaFxgZH/2gAIAQEAAT8QakBg5RYjUpWV9jqqq8kOynojinqR63qf/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/a0c01c0f2be94e368702d1afe6e4db81/8ac56/14060408.webp 240w,
+/static/a0c01c0f2be94e368702d1afe6e4db81/d3be9/14060408.webp 480w,
+/static/a0c01c0f2be94e368702d1afe6e4db81/e46b2/14060408.webp 960w,
+/static/a0c01c0f2be94e368702d1afe6e4db81/b2d4b/14060408.webp 1152w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/a0c01c0f2be94e368702d1afe6e4db81/09b79/14060408.jpg 240w,
+/static/a0c01c0f2be94e368702d1afe6e4db81/7cc5e/14060408.jpg 480w,
+/static/a0c01c0f2be94e368702d1afe6e4db81/6a068/14060408.jpg 960w,
+/static/a0c01c0f2be94e368702d1afe6e4db81/5ef17/14060408.jpg 1152w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/a0c01c0f2be94e368702d1afe6e4db81/6a068/14060408.jpg&quot;
+          alt=&quot;14060408.jpg&quot;
+          title=&quot;14060408.jpg&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;あとは AirMac ユーティリティで初期化すれば、再び HDD が見えるようになります。&lt;/p&gt;
+&lt;p&gt;Time Machine を再設定して、再び 300GB ほどのバックアップ…
+ミーティングで移動したりもするので、だいたい 50GB/日ぐらいのペースで、数日かけて最初のバックアップが終わりました。
+とりあえずリーズナブルに生き返ってよかったｗ&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Thunderbird に追加している Add-on]]></title><description><![CDATA[Thunderbird に乗り換えて約1年ぐらい。その後追加したものも含めて、今使っている Add-on を列挙します。]]></description><link>https://m.bug.org/posts/2013082300/thunderbird-add-on</link><guid isPermaLink="false">https://m.bug.org/posts/2013082300/thunderbird-add-on</guid><pubDate>Fri, 23 Aug 2013 01:39:57 GMT</pubDate><content:encoded>&lt;p&gt;Thunderbird に乗り換えて約1年ぐらい。その後追加したものも含めて、今使っている Add-on を列挙します。&lt;/p&gt;
+&lt;h2 id=&quot;今使っているアドオン&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E4%BB%8A%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%82%A2%E3%83%89%E3%82%AA%E3%83%B3&quot; aria-label=&quot;今使っているアドオン permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;今使っているアドオン&lt;/h2&gt;
+&lt;p&gt;以前のリストからは増減があるので、改めてすべて書き出します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Address Close Button&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;アドレスの左側に、削除操作用の x が表示されるようになる。地味に便利。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Auto Address Cleaner&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;メール送信時に、To: や CC: をメールアドレスだけにしてくれる。アドレス帳の表示名を気にしなくて良くなるので嬉しい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Display User Agent&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;User Agent からアイコンを出す。絵が見えるのは、単純にいいw&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Folder Pane View Switcher&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;未読フォルダなどを簡単に切り替えるボタンを表示する。メニューから選ぶのは面倒だったので、入れたら楽になった。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Header Tools Lite&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;時々、壊れたヘッダや未来の日付のメールが来たときに重宝する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Nostalgy&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;メールのフォルダ移動などをキーボードでできるようになる。ドラッグアンドドロップしたり、フォルダリストをマウスでたぐったりしなくてよくなるので便利。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;QuoteCollapse&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;引用を短縮表示。最近は末尾にだらだらと長い引用をつける人が多いので、表示が縮められるのは嬉しい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SavedSearchThemAll&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;検索フォルダの検索対象を全フォルダに拡張する。指定してあるフォルダのサブフォルダが全て検索されるようになる。
+対象フォルダをぷちぷち地道にクリックする必要がなくなるのでとても便利… というか、サブフォルダ全部、ぐらいは標準で用意して欲しい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SlideShow&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;添付ファイルをスライドショー的に見れる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Toggle Word Wrap&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;自動改行する/しないをメニューから選べるようになる。たまに改行したくないことがあるので。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[ImageMagick でサムネイルやプレビュー画像を生成]]></title><description><![CDATA[写真のサムネイルやプレビュー画像を ImageMagick でまとめて作った。]]></description><link>https://m.bug.org/posts/2013052800/make-thumbnails-by-imagemagick</link><guid isPermaLink="false">https://m.bug.org/posts/2013052800/make-thumbnails-by-imagemagick</guid><pubDate>Tue, 28 May 2013 17:37:14 GMT</pubDate><content:encoded>&lt;p&gt;写真のサムネイルやプレビュー画像をまとめて作ろうと思って調べたら、ImageMagick でとても簡単にできたのでメモ。&lt;/p&gt;
+&lt;p&gt;今回作るサムネイルは 75x75 ピクセルで元の写真サイズはいろいろ。
+適当に縮めてセンタリングして… とか考えてたんだけど、&lt;code class=&quot;language-text&quot;&gt;convert&lt;/code&gt; コマンド一発でできるのね。
+オプションをフィルタ的に並べて書けるとは知らなかった。
+さすが ImageMagick。&lt;/p&gt;
+&lt;p&gt;プレビュー画像の方は「縦か横の長い方を 500 ピクセルにする」だけなので、まずはこちらから。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;横が 1000px になるようにリサイズ&lt;/li&gt;
+&lt;li&gt;縦が 1000px 以上あったら、1000px になるようにリサイズ (これで縦か横のどちらかが 1000px になる)&lt;/li&gt;
+&lt;li&gt;半分に縮小 (長辺が 500px になる)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;convert -resize &lt;span class=&quot;token string&quot;&gt;&apos;1000x&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+        -resize &lt;span class=&quot;token string&quot;&gt;&apos;x1000&gt;&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+        -resize &lt;span class=&quot;token string&quot;&gt;&apos;50%&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&apos;file1.jpg&apos;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;file1_s.jpg&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;次にサムネイル画像。こちらは縮小して正方形に切る。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;横が 150px になるようにリサイズ&lt;/li&gt;
+&lt;li&gt;縦が 150px に満たなかったら、150px になるようにリサイズ (これで縦か横のどちらも 150px 以上になる)&lt;/li&gt;
+&lt;li&gt;半分に縮小 (短辺が 75px になる)&lt;/li&gt;
+&lt;li&gt;次の操作基準点を真ん中に設定&lt;/li&gt;
+&lt;li&gt;75x75 ピクセルの領域を切り出す&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;convert -resize &lt;span class=&quot;token string&quot;&gt;&apos;150x&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+        -resize &lt;span class=&quot;token string&quot;&gt;&apos;x150&amp;lt;&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+        -resize &lt;span class=&quot;token string&quot;&gt;&apos;50%&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+        -gravity &lt;span class=&quot;token string&quot;&gt;&apos;center&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+        -crop &lt;span class=&quot;token string&quot;&gt;&apos;75x75+0+0&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&apos;file1.jpg&apos;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;file1_t.jpg&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;よくできてるなぁ。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CentOS の rpm local mirror を作る]]></title><description><![CDATA[前から欲しいと思っていた rpm ファイルの local mirror も作ることにした。]]></description><link>https://m.bug.org/posts/2013022100/building-centos-rpm-local-mirror</link><guid isPermaLink="false">https://m.bug.org/posts/2013022100/building-centos-rpm-local-mirror</guid><pubDate>Thu, 21 Feb 2013 19:20:44 GMT</pubDate><content:encoded>&lt;p&gt;外部ネットワークとは隔離された環境でいろいろ作業する時のために、だいぶ前から欲しいと思っていた rpm ファイルの local mirror も作ることにしました。&lt;/p&gt;
 &lt;p&gt;…と言っても、調べてみたら作業自体はえらく簡単でした。こんなならもっと早くやっておけばよかった…^^;&lt;/p&gt;
 &lt;p&gt;流れとしては「rsync で全ファイルを取得」「ディレクトリを httpd から見えるように設定」「ダウンロード先を local mirror に向ける」だけです。&lt;/p&gt;
 &lt;h2 id=&quot;rsync-で全ファイルを取得&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#rsync-%E3%81%A7%E5%85%A8%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E5%8F%96%E5%BE%97&quot; aria-label=&quot;rsync で全ファイルを取得 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;rsync で全ファイルを取得&lt;/h2&gt;
